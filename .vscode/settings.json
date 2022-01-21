@@ -69,5 +69,5 @@
 		"variant": "cpp"
 	},
 	"restructuredtext.linter.disabled": true,
-	"restructuredtext.confPath": "${workspaceFolder}/source"
+	"restructuredtext.confPath": "${workspaceFolder}/4788/src/docs"
 }

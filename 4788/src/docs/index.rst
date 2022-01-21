@@ -3,24 +3,16 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to RapidReact's documentation!
-======================================
+============================================
+Welcome to 4788's Rapid React documentation!
+============================================
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
 
+   documentation
+   Example Intake subsystem <subsystems/Intake>
 
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
-
-Docs
-==================
-
-.. doxygenclass:: Intake
-   :members:
+Introduction
+=============
+This is the documentation for our robot code. It is divided into the code for the different subsystems as well as a general overview of how our code works and is structured. I have also taken the liberty of documenting how to document using our new nifty documentation generation :O.

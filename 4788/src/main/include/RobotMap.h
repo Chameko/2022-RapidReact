@@ -58,6 +58,11 @@
 // Local Files
 #include "ControlMap.h"
 
+/**
+ * @file RobotMap.h
+ * @brief Contains the components of the various subsystems. A map for the robot.
+*/
+
 struct RobotMap {
   /**
    * Controllers
@@ -125,9 +130,10 @@ struct RobotMap {
     wml::actuators::DoubleSolenoid rightClimberSolenoid{ ControlMap::PCModule, wml::actuators::PneumaticsModuleType::kCTRE,ControlMap::rightClimberPort1, ControlMap::rightClimberPort2, 0.1};
   }; ClimberSystem climberSystem;
 
+  /** @brief A struct holding the various components of the Intake */
   struct IntakeSystem {
-    wml::TalonSrx intake{ControlMap::intakeMotorPort, 99};
-    wml::actuators::DoubleSolenoid intakeSolenoid{ ControlMap::PCModule, ControlMap::intakeSolenoidPort, 0.1};
+    wml::TalonSrx intake{ControlMap::intakeMotorPort, 99}; /**< Primary intake motor */
+    wml::actuators::DoubleSolenoid intakeSolenoid{ ControlMap::PCModule, ControlMap::intakeSolenoidPort, 0.1}; /**< Solanoids for actuating the rollers at the front */
   }; IntakeSystem intakeSystem;
 
 };

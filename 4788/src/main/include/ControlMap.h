@@ -8,6 +8,11 @@
 using namespace wml;
 using namespace wml::controllers;
 
+/**
+ * @file ControlMap.h
+ * @brief Contains the buttons for the subsystems and ports for the components of the subsystems
+*/
+
 struct ControlMap { 
   static void InitSmartControllerGroup(wml::controllers::SmartControllerGroup &contGroup) {
   //remap Here (map POV buttons to names ect)
@@ -45,10 +50,12 @@ struct ControlMap {
   static constexpr int dbRightPort2 = 99;
 
 
-  // Intake
+  /** Intake motor port */
   static constexpr int  intakeMotorPort = 99;
+  /** Second intake motor port */
   static constexpr int  intakeMotorPort_2 = 99;
   static constexpr bool intakeSolenoid = false;
+  /** Intake solanoid port */
   static constexpr int  intakeSolenoidPort = 99;
 
   // Shooter
@@ -87,6 +94,8 @@ struct ControlMap {
 
 
   // Intake
+  /** Joystick for controlling the intake's speed (Left joystick's y) */
   inline static const wml::controllers::tAxis Intake{ CoDriver, wml::controllers::XboxController::kLeftYAxis };
+  /** Button for toggling the intake (B)*/
   inline static const wml::controllers::tButton IntakeActuation{ CoDriver, wml::controllers::XboxController::kB };
 };

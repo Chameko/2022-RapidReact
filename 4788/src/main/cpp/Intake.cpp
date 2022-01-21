@@ -1,13 +1,18 @@
 #include "Intake.h"
 #include <iostream>
 
+/**
+ * @file Intake.cpp
+ * @brief Contains the logic for the intake
+*/
 
 Intake::Intake (RobotMap::IntakeSystem &intakeSystem, Controllers &contGroup) : _intakeSystem(intakeSystem), _contGroup(contGroup) { 
   _intakeSystem.intakeSolenoid.SetTarget(wml::actuators::BinaryActuatorState::kReverse);
 }
   
 /**
- * \brief Function that makes the intake work
+ * @brief Teleop function
+ * Uses the controller's input to toggle the intake's deployment via button press and control the speed baed off one of the joysticks on the co-driver's controller
 */
 void Intake::teleopOnUpdate (double dt){
   double intakeCont = fabs(_contGroup.Get(ControlMap::Intake)) > ControlMap::TriggerDeadzone ? _contGroup.Get(ControlMap::Intake) : 0;
