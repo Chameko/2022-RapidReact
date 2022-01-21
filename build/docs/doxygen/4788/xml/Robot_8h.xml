@@ -1,0 +1,334 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="Robot_8h" kind="file" language="C++">
+    <compoundname>Robot.h</compoundname>
+    <includes refid="RobotMap_8h" local="yes">RobotMap.h</includes>
+    <includes refid="Shooter_8h" local="yes">Shooter.h</includes>
+    <includes refid="Drivebase_8h" local="yes">Drivebase.h</includes>
+    <includes refid="Climber_8h" local="yes">Climber.h</includes>
+    <includes refid="Intake_8h" local="yes">Intake.h</includes>
+    <includedby refid="Robot_8cpp" local="yes">src/main/cpp/Robot.cpp</includedby>
+    <includedby refid="Main_8cpp" local="yes">src/main/cpp/Main.cpp</includedby>
+    <incdepgraph>
+      <node id="492">
+        <label>strategy/MPStrategy.h</label>
+      </node>
+      <node id="502">
+        <label>Drivebase.h</label>
+        <link refid="Drivebase_8h_source"/>
+        <childnode refid="503" relation="include">
+        </childnode>
+        <childnode refid="476" relation="include">
+        </childnode>
+        <childnode refid="457" relation="include">
+        </childnode>
+      </node>
+      <node id="463">
+        <label>frc/GenericHID.h</label>
+      </node>
+      <node id="456">
+        <label>src/main/include/Robot.h</label>
+        <link refid="Robot_8h"/>
+        <childnode refid="457" relation="include">
+        </childnode>
+        <childnode refid="501" relation="include">
+        </childnode>
+        <childnode refid="502" relation="include">
+        </childnode>
+        <childnode refid="504" relation="include">
+        </childnode>
+        <childnode refid="506" relation="include">
+        </childnode>
+      </node>
+      <node id="459">
+        <label>stdint.h</label>
+      </node>
+      <node id="489">
+        <label>Toggle.h</label>
+      </node>
+      <node id="505">
+        <label>controllers/Controller.h</label>
+      </node>
+      <node id="484">
+        <label>sensors/LimitSwitch.h</label>
+      </node>
+      <node id="460">
+        <label>frc/Timer.h</label>
+      </node>
+      <node id="458">
+        <label>string</label>
+      </node>
+      <node id="494">
+        <label>Gearbox.h</label>
+      </node>
+      <node id="465">
+        <label>frc/DriverStation.h</label>
+      </node>
+      <node id="485">
+        <label>sensors/NavX.h</label>
+      </node>
+      <node id="473">
+        <label>frc/trajectory/TrajectoryUtil.h</label>
+      </node>
+      <node id="481">
+        <label>actuators/VoltageController.h</label>
+      </node>
+      <node id="498">
+        <label>WMLRev.h</label>
+      </node>
+      <node id="496">
+        <label>sensors/BinarySensor.h</label>
+      </node>
+      <node id="469">
+        <label>frc/smartdashboard/SmartDashboard.h</label>
+      </node>
+      <node id="490">
+        <label>devices/StateDevice.h</label>
+      </node>
+      <node id="476">
+        <label>controllers/Controllers.h</label>
+      </node>
+      <node id="480">
+        <label>actuators/DoubleSolenoid.h</label>
+      </node>
+      <node id="477">
+        <label>actuators/BinaryServo.h</label>
+      </node>
+      <node id="495">
+        <label>strategy/Strategy.h</label>
+      </node>
+      <node id="474">
+        <label>wpi/SmallString.h</label>
+      </node>
+      <node id="471">
+        <label>networktables/NetworkTableInstance.h</label>
+      </node>
+      <node id="499">
+        <label>ControlMap.h</label>
+        <link refid="ControlMap_8h"/>
+        <childnode refid="500" relation="include">
+        </childnode>
+        <childnode refid="476" relation="include">
+        </childnode>
+      </node>
+      <node id="472">
+        <label>frc/Filesystem.h</label>
+      </node>
+      <node id="468">
+        <label>frc/Servo.h</label>
+      </node>
+      <node id="478">
+        <label>actuators/Compressor.h</label>
+      </node>
+      <node id="493">
+        <label>control/MotorFilters.h</label>
+      </node>
+      <node id="483">
+        <label>sensors/Encoder.h</label>
+      </node>
+      <node id="487">
+        <label>control/PIDController.h</label>
+      </node>
+      <node id="464">
+        <label>cameraserver/CameraServer.h</label>
+      </node>
+      <node id="500">
+        <label>vector</label>
+      </node>
+      <node id="506">
+        <label>Intake.h</label>
+        <link refid="Intake_8h"/>
+        <childnode refid="457" relation="include">
+        </childnode>
+        <childnode refid="476" relation="include">
+        </childnode>
+      </node>
+      <node id="491">
+        <label>strategy/StrategyController.h</label>
+      </node>
+      <node id="475">
+        <label>WMLCtre.h</label>
+      </node>
+      <node id="497">
+        <label>rev/CANSparkMax.h</label>
+      </node>
+      <node id="470">
+        <label>frc/AnalogInput.h</label>
+      </node>
+      <node id="467">
+        <label>frc/PowerDistribution.h</label>
+      </node>
+      <node id="503">
+        <label>iostream</label>
+      </node>
+      <node id="488">
+        <label>MotionProfiling.h</label>
+      </node>
+      <node id="461">
+        <label>frc/TimedRobot.h</label>
+      </node>
+      <node id="486">
+        <label>sensors/PressureSensor.h</label>
+      </node>
+      <node id="457">
+        <label>RobotMap.h</label>
+        <link refid="RobotMap_8h"/>
+        <childnode refid="458" relation="include">
+        </childnode>
+        <childnode refid="459" relation="include">
+        </childnode>
+        <childnode refid="460" relation="include">
+        </childnode>
+        <childnode refid="461" relation="include">
+        </childnode>
+        <childnode refid="462" relation="include">
+        </childnode>
+        <childnode refid="463" relation="include">
+        </childnode>
+        <childnode refid="464" relation="include">
+        </childnode>
+        <childnode refid="465" relation="include">
+        </childnode>
+        <childnode refid="466" relation="include">
+        </childnode>
+        <childnode refid="467" relation="include">
+        </childnode>
+        <childnode refid="468" relation="include">
+        </childnode>
+        <childnode refid="469" relation="include">
+        </childnode>
+        <childnode refid="470" relation="include">
+        </childnode>
+        <childnode refid="471" relation="include">
+        </childnode>
+        <childnode refid="472" relation="include">
+        </childnode>
+        <childnode refid="473" relation="include">
+        </childnode>
+        <childnode refid="474" relation="include">
+        </childnode>
+        <childnode refid="475" relation="include">
+        </childnode>
+        <childnode refid="476" relation="include">
+        </childnode>
+        <childnode refid="477" relation="include">
+        </childnode>
+        <childnode refid="478" relation="include">
+        </childnode>
+        <childnode refid="479" relation="include">
+        </childnode>
+        <childnode refid="480" relation="include">
+        </childnode>
+        <childnode refid="481" relation="include">
+        </childnode>
+        <childnode refid="482" relation="include">
+        </childnode>
+        <childnode refid="483" relation="include">
+        </childnode>
+        <childnode refid="484" relation="include">
+        </childnode>
+        <childnode refid="485" relation="include">
+        </childnode>
+        <childnode refid="486" relation="include">
+        </childnode>
+        <childnode refid="487" relation="include">
+        </childnode>
+        <childnode refid="488" relation="include">
+        </childnode>
+        <childnode refid="489" relation="include">
+        </childnode>
+        <childnode refid="490" relation="include">
+        </childnode>
+        <childnode refid="491" relation="include">
+        </childnode>
+        <childnode refid="492" relation="include">
+        </childnode>
+        <childnode refid="493" relation="include">
+        </childnode>
+        <childnode refid="494" relation="include">
+        </childnode>
+        <childnode refid="495" relation="include">
+        </childnode>
+        <childnode refid="496" relation="include">
+        </childnode>
+        <childnode refid="497" relation="include">
+        </childnode>
+        <childnode refid="498" relation="include">
+        </childnode>
+        <childnode refid="499" relation="include">
+        </childnode>
+      </node>
+      <node id="462">
+        <label>frc/DoubleSolenoid.h</label>
+      </node>
+      <node id="479">
+        <label>NTProvider.h</label>
+      </node>
+      <node id="482">
+        <label>Drivetrain.h</label>
+      </node>
+      <node id="501">
+        <label>Shooter.h</label>
+        <link refid="Shooter_8h_source"/>
+        <childnode refid="476" relation="include">
+        </childnode>
+        <childnode refid="457" relation="include">
+        </childnode>
+      </node>
+      <node id="504">
+        <label>Climber.h</label>
+        <link refid="Climber_8h_source"/>
+        <childnode refid="503" relation="include">
+        </childnode>
+        <childnode refid="505" relation="include">
+        </childnode>
+        <childnode refid="457" relation="include">
+        </childnode>
+      </node>
+      <node id="466">
+        <label>frc/SpeedControllerGroup.h</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classRobot" prot="public">Robot</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="RobotMap_8h" kindref="compound">RobotMap.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Shooter.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Drivebase.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Climber.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="Intake_8h" kindref="compound">Intake.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="classRobot" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classRobot" kindref="compound">Robot</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>frc::TimedRobot,<sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal"><sp/>wml::StrategyController,<sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal"><sp/>wml::NTProvider<sp/>{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classRobot_1a66f23dae271748d525cf3ab046375f79" kindref="member">RobotInit</ref>()<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>RobotPeriodic()<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classRobot_1a810e6143a208a6314491366e3c714357" kindref="member">DisabledInit</ref>()<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>DisabledPeriodic()<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classRobot_1a2136cfc015936285218c8a8db984d6bc" kindref="member">AutonomousInit</ref>()<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>AutonomousPeriodic()<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classRobot_1aa3e246794bfbbb4406fc87f351762038" kindref="member">TeleopInit</ref>()<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>TeleopPeriodic()<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classRobot_1a9ac222d45d30a6d0c572fd36d18c6ccc" kindref="member">TestInit</ref>()<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>TestPeriodic()<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><ref refid="structRobotMap" kindref="compound">RobotMap</ref><sp/>robotMap;</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/>Drivetrain<sp/>*drivetrain;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><ref refid="classShooter" kindref="compound">Shooter</ref><sp/>*shooter;</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><ref refid="classIntake" kindref="compound">Intake</ref><sp/>*intake;</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><ref refid="classClimber" kindref="compound">Climber</ref><sp/>*climber;</highlight></codeline>
+<codeline lineno="54"><highlight class="normal">};</highlight></codeline>
+    </programlisting>
+    <location file="src/main/include/Robot.h"/>
+  </compounddef>
+</doxygen>

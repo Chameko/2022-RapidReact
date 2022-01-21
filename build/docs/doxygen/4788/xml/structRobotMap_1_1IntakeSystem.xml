@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="structRobotMap_1_1IntakeSystem" kind="struct" language="C++" prot="public">
+    <compoundname>RobotMap::IntakeSystem</compoundname>
+    <includes refid="RobotMap_8h" local="no">RobotMap.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structRobotMap_1_1IntakeSystem_1a9eddcd06a55edc6f6919ae6ea43676b6" prot="public" static="no" mutable="no">
+        <type>wml::TalonSrx</type>
+        <definition>wml::TalonSrx RobotMap::IntakeSystem::intake</definition>
+        <argsstring></argsstring>
+        <name>intake</name>
+        <initializer>{<ref refid="structControlMap_1ab7bf17614b49fe4894bfab2cb0c3167e" kindref="member">ControlMap::intakeMotorPort</ref>, 99}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Primary intake motor </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/include/RobotMap.h" line="135" column="1" bodyfile="src/main/include/RobotMap.h" bodystart="135" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structRobotMap_1_1IntakeSystem_1ae869255b892f9a9a4943748e22d90f5a" prot="public" static="no" mutable="no">
+        <type>wml::actuators::DoubleSolenoid</type>
+        <definition>wml::actuators::DoubleSolenoid RobotMap::IntakeSystem::intakeSolenoid</definition>
+        <argsstring></argsstring>
+        <name>intakeSolenoid</name>
+        <initializer>{ ControlMap::PCModule, <ref refid="structControlMap_1a16cacbcd6bd26723571b37093e5a6774" kindref="member">ControlMap::intakeSolenoidPort</ref>, 0.1}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Solanoids for actuating the rollers at the front </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/include/RobotMap.h" line="136" column="1" bodyfile="src/main/include/RobotMap.h" bodystart="136" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>A struct holding the various components of the <ref refid="classIntake" kindref="compound">Intake</ref>. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/main/include/RobotMap.h" line="134" column="1" bodyfile="src/main/include/RobotMap.h" bodystart="134" bodyend="137"/>
+    <listofallmembers>
+      <member refid="structRobotMap_1_1IntakeSystem_1a9eddcd06a55edc6f6919ae6ea43676b6" prot="public" virt="non-virtual"><scope>RobotMap::IntakeSystem</scope><name>intake</name></member>
+      <member refid="structRobotMap_1_1IntakeSystem_1ae869255b892f9a9a4943748e22d90f5a" prot="public" virt="non-virtual"><scope>RobotMap::IntakeSystem</scope><name>intakeSolenoid</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

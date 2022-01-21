@@ -1,0 +1,176 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="structRobotMap" kind="struct" language="C++" prot="public">
+    <compoundname>RobotMap</compoundname>
+    <innerclass refid="structRobotMap_1_1ClimberSystem" prot="public">RobotMap::ClimberSystem</innerclass>
+    <innerclass refid="structRobotMap_1_1ControlSystem" prot="public">RobotMap::ControlSystem</innerclass>
+    <innerclass refid="structRobotMap_1_1DrivebaseSystem" prot="public">RobotMap::DrivebaseSystem</innerclass>
+    <innerclass refid="structRobotMap_1_1IntakeSystem" prot="public">RobotMap::IntakeSystem</innerclass>
+    <innerclass refid="structRobotMap_1_1ShooterSystem" prot="public">RobotMap::ShooterSystem</innerclass>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structRobotMap_1a425bec78e58af4e6e58e533ca2124512" prot="public" static="no" mutable="no">
+        <type>wml::controllers::XboxController</type>
+        <definition>wml::controllers::XboxController RobotMap::xbox1</definition>
+        <argsstring></argsstring>
+        <name>xbox1</name>
+        <initializer>{ ControlMap::Xbox1Port }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Controllers </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/include/RobotMap.h" line="70" column="1" bodyfile="src/main/include/RobotMap.h" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structRobotMap_1a7d054aac9f51d32edcc342c538a28cad" prot="public" static="no" mutable="no">
+        <type>wml::controllers::XboxController</type>
+        <definition>wml::controllers::XboxController RobotMap::xbox2</definition>
+        <argsstring></argsstring>
+        <name>xbox2</name>
+        <initializer>{ ControlMap::Xbox2Port }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/include/RobotMap.h" line="71" column="1" bodyfile="src/main/include/RobotMap.h" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structRobotMap_1a8376a9e3cd508f3534bc30839c2da04d" prot="public" static="no" mutable="no">
+        <type>wml::controllers::SmartControllerGroup</type>
+        <definition>wml::controllers::SmartControllerGroup RobotMap::contGroup</definition>
+        <argsstring></argsstring>
+        <name>contGroup</name>
+        <initializer>{ <ref refid="structRobotMap_1a425bec78e58af4e6e58e533ca2124512" kindref="member">xbox1</ref>, xbox2}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/include/RobotMap.h" line="72" column="1" bodyfile="src/main/include/RobotMap.h" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structRobotMap_1a2259c66a8ff7b3fa23bf19e7274e777d" prot="public" static="no" mutable="no">
+        <type><ref refid="structRobotMap_1_1ControlSystem" kindref="compound">ControlSystem</ref></type>
+        <definition>ControlSystem RobotMap::controlSystem</definition>
+        <argsstring></argsstring>
+        <name>controlSystem</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/include/RobotMap.h" line="81" column="1" bodyfile="src/main/include/RobotMap.h" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structRobotMap_1ae375f98e01366e63da5b1e94080b1767" prot="public" static="no" mutable="no">
+        <type><ref refid="structRobotMap_1_1ShooterSystem" kindref="compound">ShooterSystem</ref></type>
+        <definition>ShooterSystem RobotMap::shooterSystem</definition>
+        <argsstring></argsstring>
+        <name>shooterSystem</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/include/RobotMap.h" line="97" column="1" bodyfile="src/main/include/RobotMap.h" bodystart="97" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structRobotMap_1a26d0929ef57cba3bdc3e0633cd542a4f" prot="public" static="no" mutable="no">
+        <type><ref refid="structRobotMap_1_1DrivebaseSystem" kindref="compound">DrivebaseSystem</ref></type>
+        <definition>DrivebaseSystem RobotMap::drivebaseSystem</definition>
+        <argsstring></argsstring>
+        <name>drivebaseSystem</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/include/RobotMap.h" line="126" column="1" bodyfile="src/main/include/RobotMap.h" bodystart="126" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structRobotMap_1a8d792e4e28c9d6a15331ae6836f25f11" prot="public" static="no" mutable="no">
+        <type><ref refid="structRobotMap_1_1ClimberSystem" kindref="compound">ClimberSystem</ref></type>
+        <definition>ClimberSystem RobotMap::climberSystem</definition>
+        <argsstring></argsstring>
+        <name>climberSystem</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/include/RobotMap.h" line="131" column="1" bodyfile="src/main/include/RobotMap.h" bodystart="131" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structRobotMap_1a65690e0971f41c7774b82adaccaf3f99" prot="public" static="no" mutable="no">
+        <type><ref refid="structRobotMap_1_1IntakeSystem" kindref="compound">IntakeSystem</ref></type>
+        <definition>IntakeSystem RobotMap::intakeSystem</definition>
+        <argsstring></argsstring>
+        <name>intakeSystem</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/include/RobotMap.h" line="137" column="1" bodyfile="src/main/include/RobotMap.h" bodystart="137" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="31">
+        <label>RobotMap::ControlSystem</label>
+        <link refid="structRobotMap_1_1ControlSystem"/>
+      </node>
+      <node id="30">
+        <label>RobotMap::IntakeSystem</label>
+        <link refid="structRobotMap_1_1IntakeSystem"/>
+      </node>
+      <node id="28">
+        <label>RobotMap::ShooterSystem</label>
+        <link refid="structRobotMap_1_1ShooterSystem"/>
+      </node>
+      <node id="32">
+        <label>RobotMap::DrivebaseSystem</label>
+        <link refid="structRobotMap_1_1DrivebaseSystem"/>
+      </node>
+      <node id="27">
+        <label>RobotMap</label>
+        <link refid="structRobotMap"/>
+        <childnode refid="28" relation="usage">
+          <edgelabel>shooterSystem</edgelabel>
+        </childnode>
+        <childnode refid="29" relation="usage">
+          <edgelabel>climberSystem</edgelabel>
+        </childnode>
+        <childnode refid="30" relation="usage">
+          <edgelabel>intakeSystem</edgelabel>
+        </childnode>
+        <childnode refid="31" relation="usage">
+          <edgelabel>controlSystem</edgelabel>
+        </childnode>
+        <childnode refid="32" relation="usage">
+          <edgelabel>drivebaseSystem</edgelabel>
+        </childnode>
+      </node>
+      <node id="29">
+        <label>RobotMap::ClimberSystem</label>
+        <link refid="structRobotMap_1_1ClimberSystem"/>
+      </node>
+    </collaborationgraph>
+    <location file="src/main/include/RobotMap.h" line="66" column="1" bodyfile="src/main/include/RobotMap.h" bodystart="66" bodyend="139"/>
+    <listofallmembers>
+      <member refid="structRobotMap_1a8d792e4e28c9d6a15331ae6836f25f11" prot="public" virt="non-virtual"><scope>RobotMap</scope><name>climberSystem</name></member>
+      <member refid="structRobotMap_1a8376a9e3cd508f3534bc30839c2da04d" prot="public" virt="non-virtual"><scope>RobotMap</scope><name>contGroup</name></member>
+      <member refid="structRobotMap_1a2259c66a8ff7b3fa23bf19e7274e777d" prot="public" virt="non-virtual"><scope>RobotMap</scope><name>controlSystem</name></member>
+      <member refid="structRobotMap_1a26d0929ef57cba3bdc3e0633cd542a4f" prot="public" virt="non-virtual"><scope>RobotMap</scope><name>drivebaseSystem</name></member>
+      <member refid="structRobotMap_1a65690e0971f41c7774b82adaccaf3f99" prot="public" virt="non-virtual"><scope>RobotMap</scope><name>intakeSystem</name></member>
+      <member refid="structRobotMap_1ae375f98e01366e63da5b1e94080b1767" prot="public" virt="non-virtual"><scope>RobotMap</scope><name>shooterSystem</name></member>
+      <member refid="structRobotMap_1a425bec78e58af4e6e58e533ca2124512" prot="public" virt="non-virtual"><scope>RobotMap</scope><name>xbox1</name></member>
+      <member refid="structRobotMap_1a7d054aac9f51d32edcc342c538a28cad" prot="public" virt="non-virtual"><scope>RobotMap</scope><name>xbox2</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

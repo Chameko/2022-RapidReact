@@ -1,0 +1,286 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="Climber_8cpp" kind="file" language="C++">
+    <compoundname>Climber.cpp</compoundname>
+    <includes refid="Climber_8h" local="yes">Climber.h</includes>
+    <includes local="no">iostream</includes>
+    <incdepgraph>
+      <node id="39">
+        <label>strategy/MPStrategy.h</label>
+      </node>
+      <node id="10">
+        <label>frc/GenericHID.h</label>
+      </node>
+      <node id="6">
+        <label>stdint.h</label>
+      </node>
+      <node id="36">
+        <label>Toggle.h</label>
+      </node>
+      <node id="3">
+        <label>controllers/Controller.h</label>
+      </node>
+      <node id="31">
+        <label>sensors/LimitSwitch.h</label>
+      </node>
+      <node id="7">
+        <label>frc/Timer.h</label>
+      </node>
+      <node id="5">
+        <label>string</label>
+      </node>
+      <node id="41">
+        <label>Gearbox.h</label>
+      </node>
+      <node id="12">
+        <label>frc/DriverStation.h</label>
+      </node>
+      <node id="32">
+        <label>sensors/NavX.h</label>
+      </node>
+      <node id="20">
+        <label>frc/trajectory/TrajectoryUtil.h</label>
+      </node>
+      <node id="28">
+        <label>actuators/VoltageController.h</label>
+      </node>
+      <node id="45">
+        <label>WMLRev.h</label>
+      </node>
+      <node id="43">
+        <label>sensors/BinarySensor.h</label>
+      </node>
+      <node id="16">
+        <label>frc/smartdashboard/SmartDashboard.h</label>
+      </node>
+      <node id="37">
+        <label>devices/StateDevice.h</label>
+      </node>
+      <node id="23">
+        <label>controllers/Controllers.h</label>
+      </node>
+      <node id="27">
+        <label>actuators/DoubleSolenoid.h</label>
+      </node>
+      <node id="24">
+        <label>actuators/BinaryServo.h</label>
+      </node>
+      <node id="42">
+        <label>strategy/Strategy.h</label>
+      </node>
+      <node id="21">
+        <label>wpi/SmallString.h</label>
+      </node>
+      <node id="18">
+        <label>networktables/NetworkTableInstance.h</label>
+      </node>
+      <node id="46">
+        <label>ControlMap.h</label>
+        <link refid="ControlMap_8h"/>
+        <childnode refid="47" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>frc/Filesystem.h</label>
+      </node>
+      <node id="15">
+        <label>frc/Servo.h</label>
+      </node>
+      <node id="25">
+        <label>actuators/Compressor.h</label>
+      </node>
+      <node id="40">
+        <label>control/MotorFilters.h</label>
+      </node>
+      <node id="30">
+        <label>sensors/Encoder.h</label>
+      </node>
+      <node id="34">
+        <label>control/PIDController.h</label>
+      </node>
+      <node id="11">
+        <label>cameraserver/CameraServer.h</label>
+      </node>
+      <node id="47">
+        <label>vector</label>
+      </node>
+      <node id="38">
+        <label>strategy/StrategyController.h</label>
+      </node>
+      <node id="22">
+        <label>WMLCtre.h</label>
+      </node>
+      <node id="44">
+        <label>rev/CANSparkMax.h</label>
+      </node>
+      <node id="17">
+        <label>frc/AnalogInput.h</label>
+      </node>
+      <node id="14">
+        <label>frc/PowerDistribution.h</label>
+      </node>
+      <node id="2">
+        <label>iostream</label>
+      </node>
+      <node id="35">
+        <label>MotionProfiling.h</label>
+      </node>
+      <node id="8">
+        <label>frc/TimedRobot.h</label>
+      </node>
+      <node id="33">
+        <label>sensors/PressureSensor.h</label>
+      </node>
+      <node id="0">
+        <label>src/main/cpp/Climber.cpp</label>
+        <link refid="Climber_8cpp"/>
+        <childnode refid="1" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>RobotMap.h</label>
+        <link refid="RobotMap_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
+        <childnode refid="33" relation="include">
+        </childnode>
+        <childnode refid="34" relation="include">
+        </childnode>
+        <childnode refid="35" relation="include">
+        </childnode>
+        <childnode refid="36" relation="include">
+        </childnode>
+        <childnode refid="37" relation="include">
+        </childnode>
+        <childnode refid="38" relation="include">
+        </childnode>
+        <childnode refid="39" relation="include">
+        </childnode>
+        <childnode refid="40" relation="include">
+        </childnode>
+        <childnode refid="41" relation="include">
+        </childnode>
+        <childnode refid="42" relation="include">
+        </childnode>
+        <childnode refid="43" relation="include">
+        </childnode>
+        <childnode refid="44" relation="include">
+        </childnode>
+        <childnode refid="45" relation="include">
+        </childnode>
+        <childnode refid="46" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>frc/DoubleSolenoid.h</label>
+      </node>
+      <node id="26">
+        <label>NTProvider.h</label>
+      </node>
+      <node id="29">
+        <label>Drivetrain.h</label>
+      </node>
+      <node id="13">
+        <label>frc/SpeedControllerGroup.h</label>
+      </node>
+      <node id="1">
+        <label>Climber.h</label>
+        <link refid="Climber_8h_source"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;Climber.h&quot;</highlight><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;iostream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal"><ref refid="namespacewml" kindref="compound">wml</ref>;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal"><ref refid="namespacewml_1_1controllers" kindref="compound">wml::controllers</ref>;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal">Climber::Climber(<ref refid="structRobotMap_1_1ClimberSystem" kindref="compound">RobotMap::ClimberSystem</ref><sp/>&amp;climberSystem,<sp/>wml::controllers::SmartControllerGroup<sp/>&amp;contGroup)<sp/>:<sp/>_climberSystem(climberSystem),<sp/>_contGroup(contGroup)<sp/>{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/>_climberSystem.leftClimberSolenoid.SetTarget(wml::actuators::BinaryActuatorState::kReverse);<sp/></highlight><highlight class="comment">//<sp/>Default<sp/>State</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>Climber::teleopOnUpdate(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>dt)<sp/>{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(_contGroup.Get(ControlMap::ClimberToggle,<sp/>wml::controllers::XboxController::ONRISE))<sp/>{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>ClimberToggle<sp/>=<sp/>!ClimberToggle;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(ClimberToggle)<sp/>{</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>_climberSystem.leftClimberSolenoid.SetTarget(wml::actuators::BinaryActuatorState::kForward);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="src/main/cpp/Climber.cpp"/>
+  </compounddef>
+</doxygen>

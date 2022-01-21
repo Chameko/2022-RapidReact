@@ -1,0 +1,273 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classRobot" kind="class" language="C++" prot="public">
+    <compoundname>Robot</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">TimedRobot</basecompoundref>
+    <basecompoundref prot="protected" virt="non-virtual">StrategyController</basecompoundref>
+    <basecompoundref prot="protected" virt="non-virtual">NTProvider</basecompoundref>
+    <includes refid="Robot_8h" local="no">Robot.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classRobot_1aaed8cd0a68c9bc8519ef3452d16e592c" prot="private" static="no" mutable="no">
+        <type><ref refid="structRobotMap" kindref="compound">RobotMap</ref></type>
+        <definition>RobotMap Robot::robotMap</definition>
+        <argsstring></argsstring>
+        <name>robotMap</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/include/Robot.h" line="49" column="1" bodyfile="src/main/include/Robot.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classRobot_1a6cc54d2085c4735f72195a9f7105af4c" prot="private" static="no" mutable="no">
+        <type>Drivetrain *</type>
+        <definition>Drivetrain* Robot::drivetrain</definition>
+        <argsstring></argsstring>
+        <name>drivetrain</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/include/Robot.h" line="50" column="1" bodyfile="src/main/include/Robot.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classRobot_1a2f8c077248716803d5f00a8af41e1440" prot="private" static="no" mutable="no">
+        <type><ref refid="classShooter" kindref="compound">Shooter</ref> *</type>
+        <definition>Shooter* Robot::shooter</definition>
+        <argsstring></argsstring>
+        <name>shooter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/include/Robot.h" line="51" column="1" bodyfile="src/main/include/Robot.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classRobot_1a8411c60c39799cd59220bcb616510740" prot="private" static="no" mutable="no">
+        <type><ref refid="classIntake" kindref="compound">Intake</ref> *</type>
+        <definition>Intake* Robot::intake</definition>
+        <argsstring></argsstring>
+        <name>intake</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/include/Robot.h" line="52" column="1" bodyfile="src/main/include/Robot.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classRobot_1a692dadd8a24dd2477e2f304c2b4cd4b0" prot="private" static="no" mutable="no">
+        <type><ref refid="classClimber" kindref="compound">Climber</ref> *</type>
+        <definition>Climber* Robot::climber</definition>
+        <argsstring></argsstring>
+        <name>climber</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/include/Robot.h" line="53" column="1" bodyfile="src/main/include/Robot.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classRobot_1a66f23dae271748d525cf3ab046375f79" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Robot::RobotInit</definition>
+        <argsstring>() override</argsstring>
+        <name>RobotInit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classRobot" kindref="compound">Robot</ref> boot initilization. Then robot continuous periodic (regardless of mode [teleop/auto/test etc..]) </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/include/Robot.h" line="19" column="1" bodyfile="src/main/cpp/Robot.cpp" bodystart="12" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="classRobot_1a8fad82c2250bcfb83b743b5c0dd6ed27" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Robot::RobotPeriodic</definition>
+        <argsstring>() override</argsstring>
+        <name>RobotPeriodic</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/include/Robot.h" line="20" column="1" bodyfile="src/main/cpp/Robot.cpp" bodystart="47" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="classRobot_1a810e6143a208a6314491366e3c714357" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Robot::DisabledInit</definition>
+        <argsstring>() override</argsstring>
+        <name>DisabledInit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>In it&apos;s dissabled mode, simillar to robot init/periodic. However only executes once robot has been disabled at least once. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/include/Robot.h" line="26" column="1" bodyfile="src/main/cpp/Robot.cpp" bodystart="62" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="classRobot_1a8c7309f5f1cb242ea8c74f1abf03b540" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Robot::DisabledPeriodic</definition>
+        <argsstring>() override</argsstring>
+        <name>DisabledPeriodic</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/include/Robot.h" line="27" column="1" bodyfile="src/main/cpp/Robot.cpp" bodystart="65" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="classRobot_1a2136cfc015936285218c8a8db984d6bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Robot::AutonomousInit</definition>
+        <argsstring>() override</argsstring>
+        <name>AutonomousInit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>When the drivestation starts init auto mode, these functions will execute, once for init. And then continuously for periodic </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/include/Robot.h" line="33" column="1" bodyfile="src/main/cpp/Robot.cpp" bodystart="68" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="classRobot_1ac11143dd674e0e02fef5329e2df24830" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Robot::AutonomousPeriodic</definition>
+        <argsstring>() override</argsstring>
+        <name>AutonomousPeriodic</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/include/Robot.h" line="34" column="1" bodyfile="src/main/cpp/Robot.cpp" bodystart="69" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="classRobot_1aa3e246794bfbbb4406fc87f351762038" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Robot::TeleopInit</definition>
+        <argsstring>() override</argsstring>
+        <name>TeleopInit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Teleop version of auto, used for manual control </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/include/Robot.h" line="39" column="1" bodyfile="src/main/cpp/Robot.cpp" bodystart="72" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="classRobot_1a324322627c63b3870daf7c7ddc5bea63" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Robot::TeleopPeriodic</definition>
+        <argsstring>() override</argsstring>
+        <name>TeleopPeriodic</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/include/Robot.h" line="40" column="1" bodyfile="src/main/cpp/Robot.cpp" bodystart="75" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="function" id="classRobot_1a9ac222d45d30a6d0c572fd36d18c6ccc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Robot::TestInit</definition>
+        <argsstring>() override</argsstring>
+        <name>TestInit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Test mode. Runs only in test mode </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/include/Robot.h" line="45" column="1" bodyfile="src/main/cpp/Robot.cpp" bodystart="81" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="classRobot_1af0ac44a962e609e9b042285e699d1db8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Robot::TestPeriodic</definition>
+        <argsstring>() override</argsstring>
+        <name>TestPeriodic</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/include/Robot.h" line="46" column="1" bodyfile="src/main/cpp/Robot.cpp" bodystart="82" bodyend="82"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Local Files </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="20">
+        <label>wml::StrategyController</label>
+      </node>
+      <node id="18">
+        <label>Robot</label>
+        <link refid="classRobot"/>
+        <childnode refid="19" relation="public-inheritance">
+        </childnode>
+        <childnode refid="20" relation="protected-inheritance">
+        </childnode>
+        <childnode refid="21" relation="protected-inheritance">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>frc::TimedRobot</label>
+      </node>
+      <node id="21">
+        <label>wml::NTProvider</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="24">
+        <label>wml::StrategyController</label>
+      </node>
+      <node id="22">
+        <label>Robot</label>
+        <link refid="classRobot"/>
+        <childnode refid="23" relation="public-inheritance">
+        </childnode>
+        <childnode refid="24" relation="protected-inheritance">
+        </childnode>
+        <childnode refid="25" relation="protected-inheritance">
+        </childnode>
+      </node>
+      <node id="23">
+        <label>frc::TimedRobot</label>
+      </node>
+      <node id="25">
+        <label>wml::NTProvider</label>
+      </node>
+    </collaborationgraph>
+    <location file="src/main/include/Robot.h" line="12" column="1" bodyfile="src/main/include/Robot.h" bodystart="12" bodyend="54"/>
+    <listofallmembers>
+      <member refid="classRobot_1a2136cfc015936285218c8a8db984d6bc" prot="public" virt="non-virtual"><scope>Robot</scope><name>AutonomousInit</name></member>
+      <member refid="classRobot_1ac11143dd674e0e02fef5329e2df24830" prot="public" virt="non-virtual"><scope>Robot</scope><name>AutonomousPeriodic</name></member>
+      <member refid="classRobot_1a692dadd8a24dd2477e2f304c2b4cd4b0" prot="private" virt="non-virtual"><scope>Robot</scope><name>climber</name></member>
+      <member refid="classRobot_1a810e6143a208a6314491366e3c714357" prot="public" virt="non-virtual"><scope>Robot</scope><name>DisabledInit</name></member>
+      <member refid="classRobot_1a8c7309f5f1cb242ea8c74f1abf03b540" prot="public" virt="non-virtual"><scope>Robot</scope><name>DisabledPeriodic</name></member>
+      <member refid="classRobot_1a6cc54d2085c4735f72195a9f7105af4c" prot="private" virt="non-virtual"><scope>Robot</scope><name>drivetrain</name></member>
+      <member refid="classRobot_1a8411c60c39799cd59220bcb616510740" prot="private" virt="non-virtual"><scope>Robot</scope><name>intake</name></member>
+      <member refid="classRobot_1a66f23dae271748d525cf3ab046375f79" prot="public" virt="non-virtual"><scope>Robot</scope><name>RobotInit</name></member>
+      <member refid="classRobot_1aaed8cd0a68c9bc8519ef3452d16e592c" prot="private" virt="non-virtual"><scope>Robot</scope><name>robotMap</name></member>
+      <member refid="classRobot_1a8fad82c2250bcfb83b743b5c0dd6ed27" prot="public" virt="non-virtual"><scope>Robot</scope><name>RobotPeriodic</name></member>
+      <member refid="classRobot_1a2f8c077248716803d5f00a8af41e1440" prot="private" virt="non-virtual"><scope>Robot</scope><name>shooter</name></member>
+      <member refid="classRobot_1aa3e246794bfbbb4406fc87f351762038" prot="public" virt="non-virtual"><scope>Robot</scope><name>TeleopInit</name></member>
+      <member refid="classRobot_1a324322627c63b3870daf7c7ddc5bea63" prot="public" virt="non-virtual"><scope>Robot</scope><name>TeleopPeriodic</name></member>
+      <member refid="classRobot_1a9ac222d45d30a6d0c572fd36d18c6ccc" prot="public" virt="non-virtual"><scope>Robot</scope><name>TestInit</name></member>
+      <member refid="classRobot_1af0ac44a962e609e9b042285e699d1db8" prot="public" virt="non-virtual"><scope>Robot</scope><name>TestPeriodic</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

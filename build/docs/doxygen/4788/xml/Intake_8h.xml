@@ -1,0 +1,336 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="Intake_8h" kind="file" language="C++">
+    <compoundname>Intake.h</compoundname>
+    <includes refid="RobotMap_8h" local="yes">RobotMap.h</includes>
+    <includes local="yes">controllers/Controllers.h</includes>
+    <includedby refid="Robot_8cpp" local="yes">src/main/cpp/Robot.cpp</includedby>
+    <includedby refid="Intake_8cpp" local="yes">src/main/cpp/Intake.cpp</includedby>
+    <includedby refid="Robot_8h" local="yes">src/main/include/Robot.h</includedby>
+    <incdepgraph>
+      <node id="444">
+        <label>strategy/MPStrategy.h</label>
+      </node>
+      <node id="415">
+        <label>frc/GenericHID.h</label>
+      </node>
+      <node id="411">
+        <label>stdint.h</label>
+      </node>
+      <node id="441">
+        <label>Toggle.h</label>
+      </node>
+      <node id="436">
+        <label>sensors/LimitSwitch.h</label>
+      </node>
+      <node id="412">
+        <label>frc/Timer.h</label>
+      </node>
+      <node id="410">
+        <label>string</label>
+      </node>
+      <node id="446">
+        <label>Gearbox.h</label>
+      </node>
+      <node id="417">
+        <label>frc/DriverStation.h</label>
+      </node>
+      <node id="437">
+        <label>sensors/NavX.h</label>
+      </node>
+      <node id="425">
+        <label>frc/trajectory/TrajectoryUtil.h</label>
+      </node>
+      <node id="433">
+        <label>actuators/VoltageController.h</label>
+      </node>
+      <node id="450">
+        <label>WMLRev.h</label>
+      </node>
+      <node id="448">
+        <label>sensors/BinarySensor.h</label>
+      </node>
+      <node id="421">
+        <label>frc/smartdashboard/SmartDashboard.h</label>
+      </node>
+      <node id="442">
+        <label>devices/StateDevice.h</label>
+      </node>
+      <node id="428">
+        <label>controllers/Controllers.h</label>
+      </node>
+      <node id="432">
+        <label>actuators/DoubleSolenoid.h</label>
+      </node>
+      <node id="429">
+        <label>actuators/BinaryServo.h</label>
+      </node>
+      <node id="447">
+        <label>strategy/Strategy.h</label>
+      </node>
+      <node id="426">
+        <label>wpi/SmallString.h</label>
+      </node>
+      <node id="423">
+        <label>networktables/NetworkTableInstance.h</label>
+      </node>
+      <node id="451">
+        <label>ControlMap.h</label>
+        <link refid="ControlMap_8h"/>
+        <childnode refid="452" relation="include">
+        </childnode>
+        <childnode refid="428" relation="include">
+        </childnode>
+      </node>
+      <node id="424">
+        <label>frc/Filesystem.h</label>
+      </node>
+      <node id="420">
+        <label>frc/Servo.h</label>
+      </node>
+      <node id="430">
+        <label>actuators/Compressor.h</label>
+      </node>
+      <node id="445">
+        <label>control/MotorFilters.h</label>
+      </node>
+      <node id="435">
+        <label>sensors/Encoder.h</label>
+      </node>
+      <node id="439">
+        <label>control/PIDController.h</label>
+      </node>
+      <node id="416">
+        <label>cameraserver/CameraServer.h</label>
+      </node>
+      <node id="452">
+        <label>vector</label>
+      </node>
+      <node id="408">
+        <label>src/main/include/Intake.h</label>
+        <link refid="Intake_8h"/>
+        <childnode refid="409" relation="include">
+        </childnode>
+        <childnode refid="428" relation="include">
+        </childnode>
+      </node>
+      <node id="443">
+        <label>strategy/StrategyController.h</label>
+      </node>
+      <node id="427">
+        <label>WMLCtre.h</label>
+      </node>
+      <node id="449">
+        <label>rev/CANSparkMax.h</label>
+      </node>
+      <node id="422">
+        <label>frc/AnalogInput.h</label>
+      </node>
+      <node id="419">
+        <label>frc/PowerDistribution.h</label>
+      </node>
+      <node id="440">
+        <label>MotionProfiling.h</label>
+      </node>
+      <node id="413">
+        <label>frc/TimedRobot.h</label>
+      </node>
+      <node id="438">
+        <label>sensors/PressureSensor.h</label>
+      </node>
+      <node id="409">
+        <label>RobotMap.h</label>
+        <link refid="RobotMap_8h"/>
+        <childnode refid="410" relation="include">
+        </childnode>
+        <childnode refid="411" relation="include">
+        </childnode>
+        <childnode refid="412" relation="include">
+        </childnode>
+        <childnode refid="413" relation="include">
+        </childnode>
+        <childnode refid="414" relation="include">
+        </childnode>
+        <childnode refid="415" relation="include">
+        </childnode>
+        <childnode refid="416" relation="include">
+        </childnode>
+        <childnode refid="417" relation="include">
+        </childnode>
+        <childnode refid="418" relation="include">
+        </childnode>
+        <childnode refid="419" relation="include">
+        </childnode>
+        <childnode refid="420" relation="include">
+        </childnode>
+        <childnode refid="421" relation="include">
+        </childnode>
+        <childnode refid="422" relation="include">
+        </childnode>
+        <childnode refid="423" relation="include">
+        </childnode>
+        <childnode refid="424" relation="include">
+        </childnode>
+        <childnode refid="425" relation="include">
+        </childnode>
+        <childnode refid="426" relation="include">
+        </childnode>
+        <childnode refid="427" relation="include">
+        </childnode>
+        <childnode refid="428" relation="include">
+        </childnode>
+        <childnode refid="429" relation="include">
+        </childnode>
+        <childnode refid="430" relation="include">
+        </childnode>
+        <childnode refid="431" relation="include">
+        </childnode>
+        <childnode refid="432" relation="include">
+        </childnode>
+        <childnode refid="433" relation="include">
+        </childnode>
+        <childnode refid="434" relation="include">
+        </childnode>
+        <childnode refid="435" relation="include">
+        </childnode>
+        <childnode refid="436" relation="include">
+        </childnode>
+        <childnode refid="437" relation="include">
+        </childnode>
+        <childnode refid="438" relation="include">
+        </childnode>
+        <childnode refid="439" relation="include">
+        </childnode>
+        <childnode refid="440" relation="include">
+        </childnode>
+        <childnode refid="441" relation="include">
+        </childnode>
+        <childnode refid="442" relation="include">
+        </childnode>
+        <childnode refid="443" relation="include">
+        </childnode>
+        <childnode refid="444" relation="include">
+        </childnode>
+        <childnode refid="445" relation="include">
+        </childnode>
+        <childnode refid="446" relation="include">
+        </childnode>
+        <childnode refid="447" relation="include">
+        </childnode>
+        <childnode refid="448" relation="include">
+        </childnode>
+        <childnode refid="449" relation="include">
+        </childnode>
+        <childnode refid="450" relation="include">
+        </childnode>
+        <childnode refid="451" relation="include">
+        </childnode>
+      </node>
+      <node id="414">
+        <label>frc/DoubleSolenoid.h</label>
+      </node>
+      <node id="431">
+        <label>NTProvider.h</label>
+      </node>
+      <node id="434">
+        <label>Drivetrain.h</label>
+      </node>
+      <node id="418">
+        <label>frc/SpeedControllerGroup.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="454">
+        <label>src/main/cpp/Intake.cpp</label>
+        <link refid="Intake_8cpp"/>
+      </node>
+      <node id="455">
+        <label>src/main/include/Robot.h</label>
+        <link refid="Robot_8h_source"/>
+      </node>
+      <node id="453">
+        <label>src/main/include/Intake.h</label>
+        <link refid="Intake_8h"/>
+        <childnode refid="454" relation="include">
+        </childnode>
+        <childnode refid="455" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classIntake" prot="public">Intake</innerclass>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="Intake_8h_1a0d4ae908db9726740a0508f8dbb37f70" prot="public" static="no">
+        <name>IntakeStates</name>
+        <enumvalue id="Intake_8h_1a0d4ae908db9726740a0508f8dbb37f70a147f1edf31b844823967c494830a1ea5" prot="public">
+          <name>STOWED</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>Stowed state. </para>          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Intake_8h_1a0d4ae908db9726740a0508f8dbb37f70a90ed2d7a17a0f9a3f787aac3f7c39608" prot="public">
+          <name>DEPLOYED</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>Deployed state. </para>          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Enum for storing if the intake is deployed or not. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/include/Intake.h" line="14" column="1" bodyfile="src/main/include/Intake.h" bodystart="14" bodyend="17"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="Intake_8h_1a04ebc643bb7d5048cab4c57055fd63b8" prot="public" static="no">
+        <type>wml::controllers::SmartControllerGroup</type>
+        <definition>using Controllers =  wml::controllers::SmartControllerGroup</definition>
+        <argsstring></argsstring>
+        <name>Controllers</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/include/Intake.h" line="6" column="1" bodyfile="src/main/include/Intake.h" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Contains the declaration of intake state enum and class. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="RobotMap_8h" kindref="compound">RobotMap.h</ref>&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;controllers/Controllers.h&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>Controllers<sp/>=<sp/>wml::controllers::SmartControllerGroup;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="Intake_8h_1a0d4ae908db9726740a0508f8dbb37f70" refkind="member"><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="Intake_8h_1a0d4ae908db9726740a0508f8dbb37f70" kindref="member">IntakeStates</ref>{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><ref refid="Intake_8h_1a0d4ae908db9726740a0508f8dbb37f70a147f1edf31b844823967c494830a1ea5" kindref="member">STOWED</ref><sp/>=<sp/>0,<sp/></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><ref refid="Intake_8h_1a0d4ae908db9726740a0508f8dbb37f70a90ed2d7a17a0f9a3f787aac3f7c39608" kindref="member">DEPLOYED</ref><sp/></highlight></codeline>
+<codeline lineno="17"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20" refid="classIntake" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classIntake" kindref="compound">Intake</ref><sp/>{</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><ref refid="classIntake" kindref="compound">Intake</ref>(<ref refid="structRobotMap_1_1IntakeSystem" kindref="compound">RobotMap::IntakeSystem</ref><sp/>&amp;intakeSystem,<sp/>Controllers<sp/>&amp;contGroup);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>teleopOnUpdate<sp/>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>dt);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>autoOnUpdate<sp/>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>dt);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>testOnUpdate<sp/>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>dt);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><ref refid="structRobotMap_1_1IntakeSystem" kindref="compound">RobotMap::IntakeSystem</ref><sp/>&amp;_intakeSystem;<sp/></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/>Controllers<sp/>&amp;_contGroup;<sp/></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>power;<sp/></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><ref refid="Intake_8h_1a0d4ae908db9726740a0508f8dbb37f70" kindref="member">IntakeStates</ref><sp/>_intakeState{<ref refid="Intake_8h_1a0d4ae908db9726740a0508f8dbb37f70a147f1edf31b844823967c494830a1ea5" kindref="member">IntakeStates::STOWED</ref>};<sp/></highlight></codeline>
+<codeline lineno="41"><highlight class="normal">};</highlight></codeline>
+    </programlisting>
+    <location file="src/main/include/Intake.h"/>
+  </compounddef>
+</doxygen>

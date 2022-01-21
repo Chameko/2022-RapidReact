@@ -1,0 +1,166 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classIntake" kind="class" language="C++" prot="public">
+    <compoundname>Intake</compoundname>
+    <includes refid="Intake_8h" local="no">Intake.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classIntake_1a4513662503af416d2eb3728ec6b6cf7b" prot="private" static="no" mutable="no">
+        <type><ref refid="structRobotMap_1_1IntakeSystem" kindref="compound">RobotMap::IntakeSystem</ref> &amp;</type>
+        <definition>RobotMap::IntakeSystem&amp; Intake::_intakeSystem</definition>
+        <argsstring></argsstring>
+        <name>_intakeSystem</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reference to a IntakeSystem which contains the various intake components </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/include/Intake.h" line="36" column="1" bodyfile="src/main/include/Intake.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classIntake_1a677a1f6407995d0f0c20fb46a13dfbf0" prot="private" static="no" mutable="no">
+        <type>Controllers &amp;</type>
+        <definition>Controllers&amp; Intake::_contGroup</definition>
+        <argsstring></argsstring>
+        <name>_contGroup</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reference to a controller group </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/include/Intake.h" line="37" column="1" bodyfile="src/main/include/Intake.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classIntake_1a57dce32a096ab192de11d0cc48f24cb5" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Intake::power</definition>
+        <argsstring></argsstring>
+        <name>power</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Dead variable </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/include/Intake.h" line="39" column="1" bodyfile="src/main/include/Intake.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classIntake_1ac627b523047d828cfbffaf86e15c8054" prot="private" static="no" mutable="no">
+        <type><ref refid="Intake_8h_1a0d4ae908db9726740a0508f8dbb37f70" kindref="member">IntakeStates</ref></type>
+        <definition>IntakeStates Intake::_intakeState</definition>
+        <argsstring></argsstring>
+        <name>_intakeState</name>
+        <initializer>{<ref refid="Intake_8h_1a0d4ae908db9726740a0508f8dbb37f70a147f1edf31b844823967c494830a1ea5" kindref="member">IntakeStates::STOWED</ref>}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The state of the intake </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/include/Intake.h" line="40" column="1" bodyfile="src/main/include/Intake.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classIntake_1a10b82a560b18f7c9b4d56af174b8632c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Intake::Intake</definition>
+        <argsstring>(RobotMap::IntakeSystem &amp;intakeSystem, Controllers &amp;contGroup)</argsstring>
+        <name>Intake</name>
+        <param>
+          <type><ref refid="structRobotMap_1_1IntakeSystem" kindref="compound">RobotMap::IntakeSystem</ref> &amp;</type>
+          <declname>intakeSystem</declname>
+        </param>
+        <param>
+          <type>Controllers &amp;</type>
+          <declname>contGroup</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A constructor. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>intakeSystem</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A reference to the struct containing the intake components </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>contGroup</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A reference to the two controllers </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/include/Intake.h" line="27" column="1" bodyfile="src/main/cpp/Intake.cpp" bodystart="9" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="function" id="classIntake_1a3cd41b3de24a3e1483b8d4813d91174c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Intake::teleopOnUpdate</definition>
+        <argsstring>(double dt)</argsstring>
+        <name>teleopOnUpdate</name>
+        <param>
+          <type>double</type>
+          <declname>dt</declname>
+        </param>
+        <briefdescription>
+<para>Teleop function. </para>        </briefdescription>
+        <detaileddescription>
+<para>Teleop function Uses the controller&apos;s input to toggle the intake&apos;s deployment via button press and control the speed baed off one of the joysticks on the co-driver&apos;s controller. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/include/Intake.h" line="30" column="1" bodyfile="src/main/cpp/Intake.cpp" bodystart="17" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="classIntake_1a160ca2f94f1cf700868d3db4f76aa8f9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Intake::autoOnUpdate</definition>
+        <argsstring>(double dt)</argsstring>
+        <name>autoOnUpdate</name>
+        <param>
+          <type>double</type>
+          <declname>dt</declname>
+        </param>
+        <briefdescription>
+<para>Auto function. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/include/Intake.h" line="32" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classIntake_1a16a872118576a071b8cc47bfc7816031" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Intake::testOnUpdate</definition>
+        <argsstring>(double dt)</argsstring>
+        <name>testOnUpdate</name>
+        <param>
+          <type>double</type>
+          <declname>dt</declname>
+        </param>
+        <briefdescription>
+<para>Test function. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/include/Intake.h" line="34" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Class representing the intake. </para>    </detaileddescription>
+    <location file="src/main/include/Intake.h" line="20" column="1" bodyfile="src/main/include/Intake.h" bodystart="20" bodyend="41"/>
+    <listofallmembers>
+      <member refid="classIntake_1a677a1f6407995d0f0c20fb46a13dfbf0" prot="private" virt="non-virtual"><scope>Intake</scope><name>_contGroup</name></member>
+      <member refid="classIntake_1ac627b523047d828cfbffaf86e15c8054" prot="private" virt="non-virtual"><scope>Intake</scope><name>_intakeState</name></member>
+      <member refid="classIntake_1a4513662503af416d2eb3728ec6b6cf7b" prot="private" virt="non-virtual"><scope>Intake</scope><name>_intakeSystem</name></member>
+      <member refid="classIntake_1a160ca2f94f1cf700868d3db4f76aa8f9" prot="public" virt="non-virtual"><scope>Intake</scope><name>autoOnUpdate</name></member>
+      <member refid="classIntake_1a10b82a560b18f7c9b4d56af174b8632c" prot="public" virt="non-virtual"><scope>Intake</scope><name>Intake</name></member>
+      <member refid="classIntake_1a57dce32a096ab192de11d0cc48f24cb5" prot="private" virt="non-virtual"><scope>Intake</scope><name>power</name></member>
+      <member refid="classIntake_1a3cd41b3de24a3e1483b8d4813d91174c" prot="public" virt="non-virtual"><scope>Intake</scope><name>teleopOnUpdate</name></member>
+      <member refid="classIntake_1a16a872118576a071b8cc47bfc7816031" prot="public" virt="non-virtual"><scope>Intake</scope><name>testOnUpdate</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

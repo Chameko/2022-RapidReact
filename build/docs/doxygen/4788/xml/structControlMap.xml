@@ -1,0 +1,665 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="structControlMap" kind="struct" language="C++" prot="public">
+    <compoundname>ControlMap</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="structControlMap_1a1791b567672fe902d3c2bd9f58803586" prot="public" static="yes" mutable="no">
+        <type>constexpr int</type>
+        <definition>constexpr int ControlMap::Xbox1Port</definition>
+        <argsstring></argsstring>
+        <name>Xbox1Port</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/include/ControlMap.h" line="24" column="1" bodyfile="src/main/include/ControlMap.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structControlMap_1aa6704629024016cd617b58b95ed02e5a" prot="public" static="yes" mutable="no">
+        <type>constexpr int</type>
+        <definition>constexpr int ControlMap::Xbox2Port</definition>
+        <argsstring></argsstring>
+        <name>Xbox2Port</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/include/ControlMap.h" line="25" column="1" bodyfile="src/main/include/ControlMap.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structControlMap_1ab373aa9fd24e1fa17d4ef9c8d697826d" prot="public" static="yes" mutable="no">
+        <type>constexpr int</type>
+        <definition>constexpr int ControlMap::Driver</definition>
+        <argsstring></argsstring>
+        <name>Driver</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/include/ControlMap.h" line="28" column="1" bodyfile="src/main/include/ControlMap.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structControlMap_1abd4a3c1c9631bc4b8d915a69e696ebe6" prot="public" static="yes" mutable="no">
+        <type>constexpr int</type>
+        <definition>constexpr int ControlMap::CoDriver</definition>
+        <argsstring></argsstring>
+        <name>CoDriver</name>
+        <initializer>= 2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/include/ControlMap.h" line="29" column="1" bodyfile="src/main/include/ControlMap.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structControlMap_1aa928b4c8d61e60814cc1574388cf1953" prot="public" static="yes" mutable="no">
+        <type>constexpr double</type>
+        <definition>constexpr double ControlMap::XboxDeadzone</definition>
+        <argsstring></argsstring>
+        <name>XboxDeadzone</name>
+        <initializer>= 0.15</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/include/ControlMap.h" line="32" column="1" bodyfile="src/main/include/ControlMap.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structControlMap_1a9e48c6d44838028c14cce005f48cf0bd" prot="public" static="yes" mutable="no">
+        <type>constexpr double</type>
+        <definition>constexpr double ControlMap::TriggerDeadzone</definition>
+        <argsstring></argsstring>
+        <name>TriggerDeadzone</name>
+        <initializer>= 0.05</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/include/ControlMap.h" line="33" column="1" bodyfile="src/main/include/ControlMap.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structControlMap_1a5ff83d2a4e38288a2e22d901f2921854" prot="public" static="yes" mutable="no">
+        <type>constexpr int</type>
+        <definition>constexpr int ControlMap::PCModule</definition>
+        <argsstring></argsstring>
+        <name>PCModule</name>
+        <initializer>= 9</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/include/ControlMap.h" line="36" column="1" bodyfile="src/main/include/ControlMap.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structControlMap_1a191497b0033741584e982ef8b0ee81f4" prot="public" static="yes" mutable="no">
+        <type>constexpr int</type>
+        <definition>constexpr int ControlMap::PressureSensorPort</definition>
+        <argsstring></argsstring>
+        <name>PressureSensorPort</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/include/ControlMap.h" line="37" column="1" bodyfile="src/main/include/ControlMap.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structControlMap_1abe80a6e97739ea4826c14e3933d15aa6" prot="public" static="yes" mutable="no">
+        <type>constexpr int</type>
+        <definition>constexpr int ControlMap::CompressorPort</definition>
+        <argsstring></argsstring>
+        <name>CompressorPort</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/include/ControlMap.h" line="38" column="1" bodyfile="src/main/include/ControlMap.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structControlMap_1a6a5f17280d9c20baf80107d7da705513" prot="public" static="yes" mutable="no">
+        <type>constexpr double</type>
+        <definition>constexpr double ControlMap::TrackWidth</definition>
+        <argsstring></argsstring>
+        <name>TrackWidth</name>
+        <initializer>= 0.56</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/include/ControlMap.h" line="41" column="1" bodyfile="src/main/include/ControlMap.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structControlMap_1aa8ef31576227304db233086bdeb7a01e" prot="public" static="yes" mutable="no">
+        <type>constexpr double</type>
+        <definition>constexpr double ControlMap::TrackDepth</definition>
+        <argsstring></argsstring>
+        <name>TrackDepth</name>
+        <initializer>= 0.60</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/include/ControlMap.h" line="42" column="1" bodyfile="src/main/include/ControlMap.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structControlMap_1ac74c8364e6224131992dfd513658ddb0" prot="public" static="yes" mutable="no">
+        <type>constexpr double</type>
+        <definition>constexpr double ControlMap::WheelRadius</definition>
+        <argsstring></argsstring>
+        <name>WheelRadius</name>
+        <initializer>= 0.0762</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/include/ControlMap.h" line="43" column="1" bodyfile="src/main/include/ControlMap.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structControlMap_1a81fcd36abb233d2baeaaaf10d450c09a" prot="public" static="yes" mutable="no">
+        <type>constexpr double</type>
+        <definition>constexpr double ControlMap::Mass</definition>
+        <argsstring></argsstring>
+        <name>Mass</name>
+        <initializer>= 50</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/include/ControlMap.h" line="44" column="1" bodyfile="src/main/include/ControlMap.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structControlMap_1a4a62051039041248a5af97b40847bbc1" prot="public" static="yes" mutable="no">
+        <type>constexpr int</type>
+        <definition>constexpr int ControlMap::dbLeftPort1</definition>
+        <argsstring></argsstring>
+        <name>dbLeftPort1</name>
+        <initializer>= 99</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/include/ControlMap.h" line="46" column="1" bodyfile="src/main/include/ControlMap.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structControlMap_1a75b91d8fec261a53bb2d74ed70850983" prot="public" static="yes" mutable="no">
+        <type>constexpr int</type>
+        <definition>constexpr int ControlMap::dbLeftPort2</definition>
+        <argsstring></argsstring>
+        <name>dbLeftPort2</name>
+        <initializer>= 99</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/include/ControlMap.h" line="47" column="1" bodyfile="src/main/include/ControlMap.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structControlMap_1a2bb63839e8e472e176b05fa6f319d2f9" prot="public" static="yes" mutable="no">
+        <type>constexpr int</type>
+        <definition>constexpr int ControlMap::dbRightPort1</definition>
+        <argsstring></argsstring>
+        <name>dbRightPort1</name>
+        <initializer>= 99</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/include/ControlMap.h" line="49" column="1" bodyfile="src/main/include/ControlMap.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structControlMap_1a46b3305d60cf45db13406e8276ab35b7" prot="public" static="yes" mutable="no">
+        <type>constexpr int</type>
+        <definition>constexpr int ControlMap::dbRightPort2</definition>
+        <argsstring></argsstring>
+        <name>dbRightPort2</name>
+        <initializer>= 99</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/include/ControlMap.h" line="50" column="1" bodyfile="src/main/include/ControlMap.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structControlMap_1ab7bf17614b49fe4894bfab2cb0c3167e" prot="public" static="yes" mutable="no">
+        <type>constexpr int</type>
+        <definition>constexpr int ControlMap::intakeMotorPort</definition>
+        <argsstring></argsstring>
+        <name>intakeMotorPort</name>
+        <initializer>= 99</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classIntake" kindref="compound">Intake</ref> motor port </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/include/ControlMap.h" line="54" column="1" bodyfile="src/main/include/ControlMap.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structControlMap_1a063a4ebe459622746b1317668d1435c1" prot="public" static="yes" mutable="no">
+        <type>constexpr int</type>
+        <definition>constexpr int ControlMap::intakeMotorPort_2</definition>
+        <argsstring></argsstring>
+        <name>intakeMotorPort_2</name>
+        <initializer>= 99</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Second intake motor port </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/include/ControlMap.h" line="56" column="1" bodyfile="src/main/include/ControlMap.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structControlMap_1aafbcf0f54de28c0e32eea5b94fa8641b" prot="public" static="yes" mutable="no">
+        <type>constexpr bool</type>
+        <definition>constexpr bool ControlMap::intakeSolenoid</definition>
+        <argsstring></argsstring>
+        <name>intakeSolenoid</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/include/ControlMap.h" line="57" column="1" bodyfile="src/main/include/ControlMap.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structControlMap_1a16cacbcd6bd26723571b37093e5a6774" prot="public" static="yes" mutable="no">
+        <type>constexpr int</type>
+        <definition>constexpr int ControlMap::intakeSolenoidPort</definition>
+        <argsstring></argsstring>
+        <name>intakeSolenoidPort</name>
+        <initializer>= 99</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classIntake" kindref="compound">Intake</ref> solanoid port </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/include/ControlMap.h" line="59" column="1" bodyfile="src/main/include/ControlMap.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structControlMap_1aef7056c7d1654b2bed98990727ff06f2" prot="public" static="yes" mutable="no">
+        <type>constexpr int</type>
+        <definition>constexpr int ControlMap::leftFlyWheelPort</definition>
+        <argsstring></argsstring>
+        <name>leftFlyWheelPort</name>
+        <initializer>= 10</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/include/ControlMap.h" line="62" column="1" bodyfile="src/main/include/ControlMap.h" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structControlMap_1a6cf774dd3ce7f3dce96f108c71aa47a3" prot="public" static="yes" mutable="no">
+        <type>constexpr int</type>
+        <definition>constexpr int ControlMap::rightFlyWheelPort</definition>
+        <argsstring></argsstring>
+        <name>rightFlyWheelPort</name>
+        <initializer>= 13</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/include/ControlMap.h" line="63" column="1" bodyfile="src/main/include/ControlMap.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structControlMap_1afd1c9970fa665fb41957d18da746081e" prot="public" static="yes" mutable="no">
+        <type>constexpr double</type>
+        <definition>constexpr double ControlMap::flyWheelMass</definition>
+        <argsstring></argsstring>
+        <name>flyWheelMass</name>
+        <initializer>= 3</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/include/ControlMap.h" line="64" column="1" bodyfile="src/main/include/ControlMap.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structControlMap_1ac3b9fdfe7e79d827378389e0c0640b52" prot="public" static="yes" mutable="no">
+        <type>constexpr double</type>
+        <definition>constexpr double ControlMap::kp</definition>
+        <argsstring></argsstring>
+        <name>kp</name>
+        <initializer>= 0.01</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/include/ControlMap.h" line="67" column="1" bodyfile="src/main/include/ControlMap.h" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structControlMap_1a1273e10fc2e1f596dad4751fa2e9c51e" prot="public" static="yes" mutable="no">
+        <type>constexpr double</type>
+        <definition>constexpr double ControlMap::ki</definition>
+        <argsstring></argsstring>
+        <name>ki</name>
+        <initializer>= 0.0001</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/include/ControlMap.h" line="68" column="1" bodyfile="src/main/include/ControlMap.h" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structControlMap_1adcbfe9a33db989e6d6bd0166b63e4614" prot="public" static="yes" mutable="no">
+        <type>constexpr double</type>
+        <definition>constexpr double ControlMap::kd</definition>
+        <argsstring></argsstring>
+        <name>kd</name>
+        <initializer>= 0.00001</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/include/ControlMap.h" line="69" column="1" bodyfile="src/main/include/ControlMap.h" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structControlMap_1af20f529bb4dca5d4d975852292223359" prot="public" static="yes" mutable="no">
+        <type>constexpr double</type>
+        <definition>constexpr double ControlMap::goal</definition>
+        <argsstring></argsstring>
+        <name>goal</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/include/ControlMap.h" line="71" column="1" bodyfile="src/main/include/ControlMap.h" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structControlMap_1a27ffc128b0972bede44ef654ed0765b7" prot="public" static="yes" mutable="no">
+        <type>constexpr double</type>
+        <definition>constexpr double ControlMap::sum</definition>
+        <argsstring></argsstring>
+        <name>sum</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/include/ControlMap.h" line="72" column="1" bodyfile="src/main/include/ControlMap.h" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structControlMap_1a0916e9e5f71f02b821dd100604830c02" prot="public" static="yes" mutable="no">
+        <type>constexpr double</type>
+        <definition>constexpr double ControlMap::derror</definition>
+        <argsstring></argsstring>
+        <name>derror</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/include/ControlMap.h" line="73" column="1" bodyfile="src/main/include/ControlMap.h" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structControlMap_1a7a2425c9b3dd21d3666c0e524f8337fd" prot="public" static="yes" mutable="no">
+        <type>constexpr double</type>
+        <definition>constexpr double ControlMap::previousError</definition>
+        <argsstring></argsstring>
+        <name>previousError</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/include/ControlMap.h" line="74" column="1" bodyfile="src/main/include/ControlMap.h" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structControlMap_1a99e9cb5c8308441be5fe913c0f9f9f1b" prot="public" static="yes" mutable="no">
+        <type>constexpr int</type>
+        <definition>constexpr int ControlMap::ClimberPort</definition>
+        <argsstring></argsstring>
+        <name>ClimberPort</name>
+        <initializer>= 99</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/include/ControlMap.h" line="77" column="1" bodyfile="src/main/include/ControlMap.h" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structControlMap_1a8e193132a6da2b5c0cfa579a444260c2" prot="public" static="yes" mutable="no">
+        <type>constexpr int</type>
+        <definition>constexpr int ControlMap::leftClimberPort1</definition>
+        <argsstring></argsstring>
+        <name>leftClimberPort1</name>
+        <initializer>= 99</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/include/ControlMap.h" line="78" column="1" bodyfile="src/main/include/ControlMap.h" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structControlMap_1a2b193969a9cce43739ed308196d17c4d" prot="public" static="yes" mutable="no">
+        <type>constexpr int</type>
+        <definition>constexpr int ControlMap::leftClimberPort2</definition>
+        <argsstring></argsstring>
+        <name>leftClimberPort2</name>
+        <initializer>= 99</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/include/ControlMap.h" line="79" column="1" bodyfile="src/main/include/ControlMap.h" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structControlMap_1a5f65bccdf9b892cdd0ea24f153c01b86" prot="public" static="yes" mutable="no">
+        <type>constexpr int</type>
+        <definition>constexpr int ControlMap::rightClimberPort1</definition>
+        <argsstring></argsstring>
+        <name>rightClimberPort1</name>
+        <initializer>= 99</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/include/ControlMap.h" line="80" column="1" bodyfile="src/main/include/ControlMap.h" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structControlMap_1a99f37920c730539ac259edbac6a91c52" prot="public" static="yes" mutable="no">
+        <type>constexpr int</type>
+        <definition>constexpr int ControlMap::rightClimberPort2</definition>
+        <argsstring></argsstring>
+        <name>rightClimberPort2</name>
+        <initializer>= 99</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/include/ControlMap.h" line="81" column="1" bodyfile="src/main/include/ControlMap.h" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structControlMap_1a0a45f63c7c6ae4554f20bc4869cfc7f8" prot="public" static="yes" mutable="no">
+        <type>const wml::controllers::tAxis</type>
+        <definition>const wml::controllers::tAxis ControlMap::ShooterManualSpin</definition>
+        <argsstring></argsstring>
+        <name>ShooterManualSpin</name>
+        <initializer>{ CoDriver, XboxController::kLeftThrottle }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/include/ControlMap.h" line="86" column="1" bodyfile="src/main/include/ControlMap.h" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structControlMap_1ac0f06b00a5ce622f1b91c49de6884ce5" prot="public" static="yes" mutable="no">
+        <type>const wml::controllers::tAxis</type>
+        <definition>const wml::controllers::tAxis ControlMap::drivebaseL</definition>
+        <argsstring></argsstring>
+        <name>drivebaseL</name>
+        <initializer>{Driver, XboxController::kLeftYAxis}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/include/ControlMap.h" line="89" column="1" bodyfile="src/main/include/ControlMap.h" bodystart="89" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structControlMap_1a6c9a0fd808fab1d6f96604af0ccfbec1" prot="public" static="yes" mutable="no">
+        <type>const wml::controllers::tAxis</type>
+        <definition>const wml::controllers::tAxis ControlMap::drivebaseR</definition>
+        <argsstring></argsstring>
+        <name>drivebaseR</name>
+        <initializer>{Driver, XboxController::kRightYAxis}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/include/ControlMap.h" line="90" column="1" bodyfile="src/main/include/ControlMap.h" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structControlMap_1ab7ac715fcc0d277f4928533ab8938153" prot="public" static="yes" mutable="no">
+        <type>const wml::controllers::tButton</type>
+        <definition>const wml::controllers::tButton ControlMap::ClimberToggle</definition>
+        <argsstring></argsstring>
+        <name>ClimberToggle</name>
+        <initializer>{ CoDriver, XboxController::kA }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/include/ControlMap.h" line="93" column="1" bodyfile="src/main/include/ControlMap.h" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structControlMap_1a3e0d6968d56cda195764e4052b2ead66" prot="public" static="yes" mutable="no">
+        <type>const wml::controllers::tAxis</type>
+        <definition>const wml::controllers::tAxis ControlMap::Intake</definition>
+        <argsstring></argsstring>
+        <name>Intake</name>
+        <initializer>{ CoDriver, wml::controllers::XboxController::kLeftYAxis }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Joystick for controlling the intake&apos;s speed (Left joystick&apos;s y) </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/include/ControlMap.h" line="98" column="1" bodyfile="src/main/include/ControlMap.h" bodystart="98" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structControlMap_1a31b48e1566307728c2b81e44a09c3ac0" prot="public" static="yes" mutable="no">
+        <type>const wml::controllers::tButton</type>
+        <definition>const wml::controllers::tButton ControlMap::IntakeActuation</definition>
+        <argsstring></argsstring>
+        <name>IntakeActuation</name>
+        <initializer>{ CoDriver, wml::controllers::XboxController::kB }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Button for toggling the intake (B) </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/include/ControlMap.h" line="100" column="1" bodyfile="src/main/include/ControlMap.h" bodystart="100" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structControlMap_1a2f6b8091721898ce7933e495e0c75a53" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void ControlMap::InitSmartControllerGroup</definition>
+        <argsstring>(wml::controllers::SmartControllerGroup &amp;contGroup)</argsstring>
+        <name>InitSmartControllerGroup</name>
+        <param>
+          <type>wml::controllers::SmartControllerGroup &amp;</type>
+          <declname>contGroup</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/include/ControlMap.h" line="17" column="1" bodyfile="src/main/include/ControlMap.h" bodystart="17" bodyend="19"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/main/include/ControlMap.h" line="16" column="1" bodyfile="src/main/include/ControlMap.h" bodystart="16" bodyend="101"/>
+    <listofallmembers>
+      <member refid="structControlMap_1a99e9cb5c8308441be5fe913c0f9f9f1b" prot="public" virt="non-virtual"><scope>ControlMap</scope><name>ClimberPort</name></member>
+      <member refid="structControlMap_1ab7ac715fcc0d277f4928533ab8938153" prot="public" virt="non-virtual"><scope>ControlMap</scope><name>ClimberToggle</name></member>
+      <member refid="structControlMap_1abd4a3c1c9631bc4b8d915a69e696ebe6" prot="public" virt="non-virtual"><scope>ControlMap</scope><name>CoDriver</name></member>
+      <member refid="structControlMap_1abe80a6e97739ea4826c14e3933d15aa6" prot="public" virt="non-virtual"><scope>ControlMap</scope><name>CompressorPort</name></member>
+      <member refid="structControlMap_1a4a62051039041248a5af97b40847bbc1" prot="public" virt="non-virtual"><scope>ControlMap</scope><name>dbLeftPort1</name></member>
+      <member refid="structControlMap_1a75b91d8fec261a53bb2d74ed70850983" prot="public" virt="non-virtual"><scope>ControlMap</scope><name>dbLeftPort2</name></member>
+      <member refid="structControlMap_1a2bb63839e8e472e176b05fa6f319d2f9" prot="public" virt="non-virtual"><scope>ControlMap</scope><name>dbRightPort1</name></member>
+      <member refid="structControlMap_1a46b3305d60cf45db13406e8276ab35b7" prot="public" virt="non-virtual"><scope>ControlMap</scope><name>dbRightPort2</name></member>
+      <member refid="structControlMap_1a0916e9e5f71f02b821dd100604830c02" prot="public" virt="non-virtual"><scope>ControlMap</scope><name>derror</name></member>
+      <member refid="structControlMap_1ac0f06b00a5ce622f1b91c49de6884ce5" prot="public" virt="non-virtual"><scope>ControlMap</scope><name>drivebaseL</name></member>
+      <member refid="structControlMap_1a6c9a0fd808fab1d6f96604af0ccfbec1" prot="public" virt="non-virtual"><scope>ControlMap</scope><name>drivebaseR</name></member>
+      <member refid="structControlMap_1ab373aa9fd24e1fa17d4ef9c8d697826d" prot="public" virt="non-virtual"><scope>ControlMap</scope><name>Driver</name></member>
+      <member refid="structControlMap_1afd1c9970fa665fb41957d18da746081e" prot="public" virt="non-virtual"><scope>ControlMap</scope><name>flyWheelMass</name></member>
+      <member refid="structControlMap_1af20f529bb4dca5d4d975852292223359" prot="public" virt="non-virtual"><scope>ControlMap</scope><name>goal</name></member>
+      <member refid="structControlMap_1a2f6b8091721898ce7933e495e0c75a53" prot="public" virt="non-virtual"><scope>ControlMap</scope><name>InitSmartControllerGroup</name></member>
+      <member refid="structControlMap_1a3e0d6968d56cda195764e4052b2ead66" prot="public" virt="non-virtual"><scope>ControlMap</scope><name>Intake</name></member>
+      <member refid="structControlMap_1a31b48e1566307728c2b81e44a09c3ac0" prot="public" virt="non-virtual"><scope>ControlMap</scope><name>IntakeActuation</name></member>
+      <member refid="structControlMap_1ab7bf17614b49fe4894bfab2cb0c3167e" prot="public" virt="non-virtual"><scope>ControlMap</scope><name>intakeMotorPort</name></member>
+      <member refid="structControlMap_1a063a4ebe459622746b1317668d1435c1" prot="public" virt="non-virtual"><scope>ControlMap</scope><name>intakeMotorPort_2</name></member>
+      <member refid="structControlMap_1aafbcf0f54de28c0e32eea5b94fa8641b" prot="public" virt="non-virtual"><scope>ControlMap</scope><name>intakeSolenoid</name></member>
+      <member refid="structControlMap_1a16cacbcd6bd26723571b37093e5a6774" prot="public" virt="non-virtual"><scope>ControlMap</scope><name>intakeSolenoidPort</name></member>
+      <member refid="structControlMap_1adcbfe9a33db989e6d6bd0166b63e4614" prot="public" virt="non-virtual"><scope>ControlMap</scope><name>kd</name></member>
+      <member refid="structControlMap_1a1273e10fc2e1f596dad4751fa2e9c51e" prot="public" virt="non-virtual"><scope>ControlMap</scope><name>ki</name></member>
+      <member refid="structControlMap_1ac3b9fdfe7e79d827378389e0c0640b52" prot="public" virt="non-virtual"><scope>ControlMap</scope><name>kp</name></member>
+      <member refid="structControlMap_1a8e193132a6da2b5c0cfa579a444260c2" prot="public" virt="non-virtual"><scope>ControlMap</scope><name>leftClimberPort1</name></member>
+      <member refid="structControlMap_1a2b193969a9cce43739ed308196d17c4d" prot="public" virt="non-virtual"><scope>ControlMap</scope><name>leftClimberPort2</name></member>
+      <member refid="structControlMap_1aef7056c7d1654b2bed98990727ff06f2" prot="public" virt="non-virtual"><scope>ControlMap</scope><name>leftFlyWheelPort</name></member>
+      <member refid="structControlMap_1a81fcd36abb233d2baeaaaf10d450c09a" prot="public" virt="non-virtual"><scope>ControlMap</scope><name>Mass</name></member>
+      <member refid="structControlMap_1a5ff83d2a4e38288a2e22d901f2921854" prot="public" virt="non-virtual"><scope>ControlMap</scope><name>PCModule</name></member>
+      <member refid="structControlMap_1a191497b0033741584e982ef8b0ee81f4" prot="public" virt="non-virtual"><scope>ControlMap</scope><name>PressureSensorPort</name></member>
+      <member refid="structControlMap_1a7a2425c9b3dd21d3666c0e524f8337fd" prot="public" virt="non-virtual"><scope>ControlMap</scope><name>previousError</name></member>
+      <member refid="structControlMap_1a5f65bccdf9b892cdd0ea24f153c01b86" prot="public" virt="non-virtual"><scope>ControlMap</scope><name>rightClimberPort1</name></member>
+      <member refid="structControlMap_1a99f37920c730539ac259edbac6a91c52" prot="public" virt="non-virtual"><scope>ControlMap</scope><name>rightClimberPort2</name></member>
+      <member refid="structControlMap_1a6cf774dd3ce7f3dce96f108c71aa47a3" prot="public" virt="non-virtual"><scope>ControlMap</scope><name>rightFlyWheelPort</name></member>
+      <member refid="structControlMap_1a0a45f63c7c6ae4554f20bc4869cfc7f8" prot="public" virt="non-virtual"><scope>ControlMap</scope><name>ShooterManualSpin</name></member>
+      <member refid="structControlMap_1a27ffc128b0972bede44ef654ed0765b7" prot="public" virt="non-virtual"><scope>ControlMap</scope><name>sum</name></member>
+      <member refid="structControlMap_1aa8ef31576227304db233086bdeb7a01e" prot="public" virt="non-virtual"><scope>ControlMap</scope><name>TrackDepth</name></member>
+      <member refid="structControlMap_1a6a5f17280d9c20baf80107d7da705513" prot="public" virt="non-virtual"><scope>ControlMap</scope><name>TrackWidth</name></member>
+      <member refid="structControlMap_1a9e48c6d44838028c14cce005f48cf0bd" prot="public" virt="non-virtual"><scope>ControlMap</scope><name>TriggerDeadzone</name></member>
+      <member refid="structControlMap_1ac74c8364e6224131992dfd513658ddb0" prot="public" virt="non-virtual"><scope>ControlMap</scope><name>WheelRadius</name></member>
+      <member refid="structControlMap_1a1791b567672fe902d3c2bd9f58803586" prot="public" virt="non-virtual"><scope>ControlMap</scope><name>Xbox1Port</name></member>
+      <member refid="structControlMap_1aa6704629024016cd617b58b95ed02e5a" prot="public" virt="non-virtual"><scope>ControlMap</scope><name>Xbox2Port</name></member>
+      <member refid="structControlMap_1aa928b4c8d61e60814cc1574388cf1953" prot="public" virt="non-virtual"><scope>ControlMap</scope><name>XboxDeadzone</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

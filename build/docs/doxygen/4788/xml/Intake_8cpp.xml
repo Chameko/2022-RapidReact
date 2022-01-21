@@ -1,0 +1,283 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="Intake_8cpp" kind="file" language="C++">
+    <compoundname>Intake.cpp</compoundname>
+    <includes refid="Intake_8h" local="yes">Intake.h</includes>
+    <includes local="no">iostream</includes>
+    <incdepgraph>
+      <node id="134">
+        <label>strategy/MPStrategy.h</label>
+      </node>
+      <node id="97">
+        <label>src/main/cpp/Intake.cpp</label>
+        <link refid="Intake_8cpp"/>
+        <childnode refid="98" relation="include">
+        </childnode>
+        <childnode refid="143" relation="include">
+        </childnode>
+      </node>
+      <node id="105">
+        <label>frc/GenericHID.h</label>
+      </node>
+      <node id="101">
+        <label>stdint.h</label>
+      </node>
+      <node id="131">
+        <label>Toggle.h</label>
+      </node>
+      <node id="126">
+        <label>sensors/LimitSwitch.h</label>
+      </node>
+      <node id="102">
+        <label>frc/Timer.h</label>
+      </node>
+      <node id="100">
+        <label>string</label>
+      </node>
+      <node id="136">
+        <label>Gearbox.h</label>
+      </node>
+      <node id="107">
+        <label>frc/DriverStation.h</label>
+      </node>
+      <node id="127">
+        <label>sensors/NavX.h</label>
+      </node>
+      <node id="115">
+        <label>frc/trajectory/TrajectoryUtil.h</label>
+      </node>
+      <node id="123">
+        <label>actuators/VoltageController.h</label>
+      </node>
+      <node id="140">
+        <label>WMLRev.h</label>
+      </node>
+      <node id="138">
+        <label>sensors/BinarySensor.h</label>
+      </node>
+      <node id="111">
+        <label>frc/smartdashboard/SmartDashboard.h</label>
+      </node>
+      <node id="132">
+        <label>devices/StateDevice.h</label>
+      </node>
+      <node id="118">
+        <label>controllers/Controllers.h</label>
+      </node>
+      <node id="122">
+        <label>actuators/DoubleSolenoid.h</label>
+      </node>
+      <node id="119">
+        <label>actuators/BinaryServo.h</label>
+      </node>
+      <node id="137">
+        <label>strategy/Strategy.h</label>
+      </node>
+      <node id="116">
+        <label>wpi/SmallString.h</label>
+      </node>
+      <node id="113">
+        <label>networktables/NetworkTableInstance.h</label>
+      </node>
+      <node id="141">
+        <label>ControlMap.h</label>
+        <link refid="ControlMap_8h"/>
+        <childnode refid="142" relation="include">
+        </childnode>
+        <childnode refid="118" relation="include">
+        </childnode>
+      </node>
+      <node id="114">
+        <label>frc/Filesystem.h</label>
+      </node>
+      <node id="110">
+        <label>frc/Servo.h</label>
+      </node>
+      <node id="120">
+        <label>actuators/Compressor.h</label>
+      </node>
+      <node id="135">
+        <label>control/MotorFilters.h</label>
+      </node>
+      <node id="125">
+        <label>sensors/Encoder.h</label>
+      </node>
+      <node id="129">
+        <label>control/PIDController.h</label>
+      </node>
+      <node id="106">
+        <label>cameraserver/CameraServer.h</label>
+      </node>
+      <node id="142">
+        <label>vector</label>
+      </node>
+      <node id="98">
+        <label>Intake.h</label>
+        <link refid="Intake_8h"/>
+        <childnode refid="99" relation="include">
+        </childnode>
+        <childnode refid="118" relation="include">
+        </childnode>
+      </node>
+      <node id="133">
+        <label>strategy/StrategyController.h</label>
+      </node>
+      <node id="117">
+        <label>WMLCtre.h</label>
+      </node>
+      <node id="139">
+        <label>rev/CANSparkMax.h</label>
+      </node>
+      <node id="112">
+        <label>frc/AnalogInput.h</label>
+      </node>
+      <node id="109">
+        <label>frc/PowerDistribution.h</label>
+      </node>
+      <node id="143">
+        <label>iostream</label>
+      </node>
+      <node id="130">
+        <label>MotionProfiling.h</label>
+      </node>
+      <node id="103">
+        <label>frc/TimedRobot.h</label>
+      </node>
+      <node id="128">
+        <label>sensors/PressureSensor.h</label>
+      </node>
+      <node id="99">
+        <label>RobotMap.h</label>
+        <link refid="RobotMap_8h"/>
+        <childnode refid="100" relation="include">
+        </childnode>
+        <childnode refid="101" relation="include">
+        </childnode>
+        <childnode refid="102" relation="include">
+        </childnode>
+        <childnode refid="103" relation="include">
+        </childnode>
+        <childnode refid="104" relation="include">
+        </childnode>
+        <childnode refid="105" relation="include">
+        </childnode>
+        <childnode refid="106" relation="include">
+        </childnode>
+        <childnode refid="107" relation="include">
+        </childnode>
+        <childnode refid="108" relation="include">
+        </childnode>
+        <childnode refid="109" relation="include">
+        </childnode>
+        <childnode refid="110" relation="include">
+        </childnode>
+        <childnode refid="111" relation="include">
+        </childnode>
+        <childnode refid="112" relation="include">
+        </childnode>
+        <childnode refid="113" relation="include">
+        </childnode>
+        <childnode refid="114" relation="include">
+        </childnode>
+        <childnode refid="115" relation="include">
+        </childnode>
+        <childnode refid="116" relation="include">
+        </childnode>
+        <childnode refid="117" relation="include">
+        </childnode>
+        <childnode refid="118" relation="include">
+        </childnode>
+        <childnode refid="119" relation="include">
+        </childnode>
+        <childnode refid="120" relation="include">
+        </childnode>
+        <childnode refid="121" relation="include">
+        </childnode>
+        <childnode refid="122" relation="include">
+        </childnode>
+        <childnode refid="123" relation="include">
+        </childnode>
+        <childnode refid="124" relation="include">
+        </childnode>
+        <childnode refid="125" relation="include">
+        </childnode>
+        <childnode refid="126" relation="include">
+        </childnode>
+        <childnode refid="127" relation="include">
+        </childnode>
+        <childnode refid="128" relation="include">
+        </childnode>
+        <childnode refid="129" relation="include">
+        </childnode>
+        <childnode refid="130" relation="include">
+        </childnode>
+        <childnode refid="131" relation="include">
+        </childnode>
+        <childnode refid="132" relation="include">
+        </childnode>
+        <childnode refid="133" relation="include">
+        </childnode>
+        <childnode refid="134" relation="include">
+        </childnode>
+        <childnode refid="135" relation="include">
+        </childnode>
+        <childnode refid="136" relation="include">
+        </childnode>
+        <childnode refid="137" relation="include">
+        </childnode>
+        <childnode refid="138" relation="include">
+        </childnode>
+        <childnode refid="139" relation="include">
+        </childnode>
+        <childnode refid="140" relation="include">
+        </childnode>
+        <childnode refid="141" relation="include">
+        </childnode>
+      </node>
+      <node id="104">
+        <label>frc/DoubleSolenoid.h</label>
+      </node>
+      <node id="121">
+        <label>NTProvider.h</label>
+      </node>
+      <node id="124">
+        <label>Drivetrain.h</label>
+      </node>
+      <node id="108">
+        <label>frc/SpeedControllerGroup.h</label>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+<para>Contains the logic for the intake. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="Intake_8h" kindref="compound">Intake.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;iostream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><ref refid="classIntake_1a10b82a560b18f7c9b4d56af174b8632c" kindref="member">Intake::Intake</ref><sp/>(<ref refid="structRobotMap_1_1IntakeSystem" kindref="compound">RobotMap::IntakeSystem</ref><sp/>&amp;intakeSystem,<sp/>Controllers<sp/>&amp;contGroup)<sp/>:<sp/>_intakeSystem(intakeSystem),<sp/>_contGroup(contGroup)<sp/>{<sp/></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/>_intakeSystem.intakeSolenoid.SetTarget(wml::actuators::BinaryActuatorState::kReverse);</highlight></codeline>
+<codeline lineno="11"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="17"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classIntake_1a3cd41b3de24a3e1483b8d4813d91174c" kindref="member">Intake::teleopOnUpdate</ref><sp/>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>dt){</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>intakeCont<sp/>=<sp/>fabs(_contGroup.Get(<ref refid="structControlMap_1a3e0d6968d56cda195764e4052b2ead66" kindref="member">ControlMap::Intake</ref>))<sp/>&gt;<sp/>ControlMap::TriggerDeadzone<sp/>?<sp/>_contGroup.Get(<ref refid="structControlMap_1a3e0d6968d56cda195764e4052b2ead66" kindref="member">ControlMap::Intake</ref>)<sp/>:<sp/>0;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/>_intakeSystem.intake.Set(intakeCont);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//switch<sp/>to<sp/>a<sp/>toggle</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(_contGroup.Get(<ref refid="structControlMap_1a31b48e1566307728c2b81e44a09c3ac0" kindref="member">ControlMap::IntakeActuation</ref>))<sp/>{</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">switch</highlight><highlight class="normal">(_intakeState)<sp/>{</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="Intake_8h_1a0d4ae908db9726740a0508f8dbb37f70a90ed2d7a17a0f9a3f787aac3f7c39608" kindref="member">IntakeStates::DEPLOYED</ref>:</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_intakeSystem.intakeSolenoid.SetTarget(wml::actuators::BinaryActuatorState::kReverse);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_intakeState<sp/>=<sp/><ref refid="Intake_8h_1a0d4ae908db9726740a0508f8dbb37f70a147f1edf31b844823967c494830a1ea5" kindref="member">IntakeStates::STOWED</ref>;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="Intake_8h_1a0d4ae908db9726740a0508f8dbb37f70a147f1edf31b844823967c494830a1ea5" kindref="member">IntakeStates::STOWED</ref>:</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_intakeSystem.intakeSolenoid.SetTarget(wml::actuators::BinaryActuatorState::kForward);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_intakeState<sp/>=<sp/><ref refid="Intake_8h_1a0d4ae908db9726740a0508f8dbb37f70a90ed2d7a17a0f9a3f787aac3f7c39608" kindref="member">IntakeStates::DEPLOYED</ref>;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="34"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="src/main/cpp/Intake.cpp"/>
+  </compounddef>
+</doxygen>

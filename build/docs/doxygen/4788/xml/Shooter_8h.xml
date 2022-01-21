@@ -1,0 +1,347 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="Shooter_8h" kind="file" language="C++">
+    <compoundname>Shooter.h</compoundname>
+    <includes local="yes">controllers/Controllers.h</includes>
+    <includes refid="RobotMap_8h" local="yes">RobotMap.h</includes>
+    <includedby refid="Shooter_8cpp" local="yes">src/main/cpp/Shooter.cpp</includedby>
+    <includedby refid="Robot_8h" local="yes">src/main/include/Robot.h</includedby>
+    <incdepgraph>
+      <node id="595">
+        <label>strategy/MPStrategy.h</label>
+      </node>
+      <node id="567">
+        <label>frc/GenericHID.h</label>
+      </node>
+      <node id="563">
+        <label>stdint.h</label>
+      </node>
+      <node id="592">
+        <label>Toggle.h</label>
+      </node>
+      <node id="587">
+        <label>sensors/LimitSwitch.h</label>
+      </node>
+      <node id="564">
+        <label>frc/Timer.h</label>
+      </node>
+      <node id="562">
+        <label>string</label>
+      </node>
+      <node id="597">
+        <label>Gearbox.h</label>
+      </node>
+      <node id="569">
+        <label>frc/DriverStation.h</label>
+      </node>
+      <node id="588">
+        <label>sensors/NavX.h</label>
+      </node>
+      <node id="577">
+        <label>frc/trajectory/TrajectoryUtil.h</label>
+      </node>
+      <node id="584">
+        <label>actuators/VoltageController.h</label>
+      </node>
+      <node id="601">
+        <label>WMLRev.h</label>
+      </node>
+      <node id="599">
+        <label>sensors/BinarySensor.h</label>
+      </node>
+      <node id="573">
+        <label>frc/smartdashboard/SmartDashboard.h</label>
+      </node>
+      <node id="593">
+        <label>devices/StateDevice.h</label>
+      </node>
+      <node id="560">
+        <label>controllers/Controllers.h</label>
+      </node>
+      <node id="583">
+        <label>actuators/DoubleSolenoid.h</label>
+      </node>
+      <node id="580">
+        <label>actuators/BinaryServo.h</label>
+      </node>
+      <node id="598">
+        <label>strategy/Strategy.h</label>
+      </node>
+      <node id="578">
+        <label>wpi/SmallString.h</label>
+      </node>
+      <node id="575">
+        <label>networktables/NetworkTableInstance.h</label>
+      </node>
+      <node id="602">
+        <label>ControlMap.h</label>
+        <link refid="ControlMap_8h"/>
+        <childnode refid="603" relation="include">
+        </childnode>
+        <childnode refid="560" relation="include">
+        </childnode>
+      </node>
+      <node id="576">
+        <label>frc/Filesystem.h</label>
+      </node>
+      <node id="572">
+        <label>frc/Servo.h</label>
+      </node>
+      <node id="581">
+        <label>actuators/Compressor.h</label>
+      </node>
+      <node id="596">
+        <label>control/MotorFilters.h</label>
+      </node>
+      <node id="586">
+        <label>sensors/Encoder.h</label>
+      </node>
+      <node id="590">
+        <label>control/PIDController.h</label>
+      </node>
+      <node id="568">
+        <label>cameraserver/CameraServer.h</label>
+      </node>
+      <node id="603">
+        <label>vector</label>
+      </node>
+      <node id="594">
+        <label>strategy/StrategyController.h</label>
+      </node>
+      <node id="579">
+        <label>WMLCtre.h</label>
+      </node>
+      <node id="600">
+        <label>rev/CANSparkMax.h</label>
+      </node>
+      <node id="574">
+        <label>frc/AnalogInput.h</label>
+      </node>
+      <node id="571">
+        <label>frc/PowerDistribution.h</label>
+      </node>
+      <node id="591">
+        <label>MotionProfiling.h</label>
+      </node>
+      <node id="565">
+        <label>frc/TimedRobot.h</label>
+      </node>
+      <node id="589">
+        <label>sensors/PressureSensor.h</label>
+      </node>
+      <node id="561">
+        <label>RobotMap.h</label>
+        <link refid="RobotMap_8h"/>
+        <childnode refid="562" relation="include">
+        </childnode>
+        <childnode refid="563" relation="include">
+        </childnode>
+        <childnode refid="564" relation="include">
+        </childnode>
+        <childnode refid="565" relation="include">
+        </childnode>
+        <childnode refid="566" relation="include">
+        </childnode>
+        <childnode refid="567" relation="include">
+        </childnode>
+        <childnode refid="568" relation="include">
+        </childnode>
+        <childnode refid="569" relation="include">
+        </childnode>
+        <childnode refid="570" relation="include">
+        </childnode>
+        <childnode refid="571" relation="include">
+        </childnode>
+        <childnode refid="572" relation="include">
+        </childnode>
+        <childnode refid="573" relation="include">
+        </childnode>
+        <childnode refid="574" relation="include">
+        </childnode>
+        <childnode refid="575" relation="include">
+        </childnode>
+        <childnode refid="576" relation="include">
+        </childnode>
+        <childnode refid="577" relation="include">
+        </childnode>
+        <childnode refid="578" relation="include">
+        </childnode>
+        <childnode refid="579" relation="include">
+        </childnode>
+        <childnode refid="560" relation="include">
+        </childnode>
+        <childnode refid="580" relation="include">
+        </childnode>
+        <childnode refid="581" relation="include">
+        </childnode>
+        <childnode refid="582" relation="include">
+        </childnode>
+        <childnode refid="583" relation="include">
+        </childnode>
+        <childnode refid="584" relation="include">
+        </childnode>
+        <childnode refid="585" relation="include">
+        </childnode>
+        <childnode refid="586" relation="include">
+        </childnode>
+        <childnode refid="587" relation="include">
+        </childnode>
+        <childnode refid="588" relation="include">
+        </childnode>
+        <childnode refid="589" relation="include">
+        </childnode>
+        <childnode refid="590" relation="include">
+        </childnode>
+        <childnode refid="591" relation="include">
+        </childnode>
+        <childnode refid="592" relation="include">
+        </childnode>
+        <childnode refid="593" relation="include">
+        </childnode>
+        <childnode refid="594" relation="include">
+        </childnode>
+        <childnode refid="595" relation="include">
+        </childnode>
+        <childnode refid="596" relation="include">
+        </childnode>
+        <childnode refid="597" relation="include">
+        </childnode>
+        <childnode refid="598" relation="include">
+        </childnode>
+        <childnode refid="599" relation="include">
+        </childnode>
+        <childnode refid="600" relation="include">
+        </childnode>
+        <childnode refid="601" relation="include">
+        </childnode>
+        <childnode refid="602" relation="include">
+        </childnode>
+      </node>
+      <node id="566">
+        <label>frc/DoubleSolenoid.h</label>
+      </node>
+      <node id="582">
+        <label>NTProvider.h</label>
+      </node>
+      <node id="585">
+        <label>Drivetrain.h</label>
+      </node>
+      <node id="559">
+        <label>src/main/include/Shooter.h</label>
+        <link refid="Shooter_8h"/>
+        <childnode refid="560" relation="include">
+        </childnode>
+        <childnode refid="561" relation="include">
+        </childnode>
+      </node>
+      <node id="570">
+        <label>frc/SpeedControllerGroup.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="605">
+        <label>src/main/include/Robot.h</label>
+        <link refid="Robot_8h_source"/>
+      </node>
+      <node id="604">
+        <label>src/main/include/Shooter.h</label>
+        <link refid="Shooter_8h"/>
+        <childnode refid="605" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classShooter" prot="public">Shooter</innerclass>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="Shooter_8h_1aaf545e3ba3e6d72376de89bb47d6620a" prot="public" static="no">
+        <name>TeleopShooter</name>
+        <enumvalue id="Shooter_8h_1aaf545e3ba3e6d72376de89bb47d6620aaa8c857c2f1b000c92f9794ebf53888d7" prot="public">
+          <name>kAuto</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Shooter_8h_1aaf545e3ba3e6d72376de89bb47d6620aa840f73673d401f2e539743e82e167a45" prot="public">
+          <name>kManual</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Shooter_8h_1aaf545e3ba3e6d72376de89bb47d6620aa88bc29e34888c9b19b2f6196199729a6" prot="public">
+          <name>kStill</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Shooter_8h_1aaf545e3ba3e6d72376de89bb47d6620aa786985f8ee655e351ca0c798f8e40916" prot="public">
+          <name>kTesting</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>State machine for the shooter in teleop kAuto -&gt; fot auto firing kManual -&gt; driver controlled firing with a trigger kStill -&gt; <ref refid="classShooter" kindref="compound">Shooter</ref> is stationary. kTesting -&gt; for testing :) </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/include/Shooter.h" line="13" column="1" bodyfile="src/main/include/Shooter.h" bodystart="13" bodyend="25"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;controllers/Controllers.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="RobotMap_8h" kindref="compound">RobotMap.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/>TeleopShooter<sp/>{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/>kAuto,</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/>kManual,</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/>kStill,<sp/></highlight><highlight class="comment">//like<sp/>stationary<sp/>but<sp/>easier<sp/>to<sp/>spell<sp/>(kIdle)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/>kTesting</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>kStill,<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>kSpinUp,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>kInner,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>kOuter,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>kManual,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>kTesting,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>kEject</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="comment">//i<sp/>could<sp/>put<sp/>a<sp/>state<sp/>machine<sp/>inside<sp/>the<sp/>state<sp/>machine<sp/>so<sp/>that<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="comment">//<sp/>manual<sp/>and<sp/>teleop<sp/>modes<sp/>can<sp/>have<sp/>a<sp/>couple<sp/>of<sp/>states.<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30" refid="classShooter" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classShooter" kindref="compound">Shooter</ref><sp/>{</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:<sp/></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>Shooter(rev::CANSparkMax<sp/>&amp;leftFlyWheelMotor,<sp/>rev::CANSparkMax<sp/>&amp;rightFlyWheelMotor,<sp/>wml::controllers::SmartControllerGroup<sp/>&amp;contGroup);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><ref refid="classShooter" kindref="compound">Shooter</ref>(<ref refid="structRobotMap_1_1ShooterSystem" kindref="compound">RobotMap::ShooterSystem</ref><sp/>&amp;shooterSystem,<sp/>SmartControllerGroup<sp/>&amp;contGroup);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>teleopOnUpdate(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>dt);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>speed(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>metersPerSecond);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>manualControl(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>dt);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>testing(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>dt);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/>TeleopShooter<sp/>_teleopShooter{<sp/>TeleopShooter::kTesting};</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/>wml::controllers::SmartControllerGroup<sp/>&amp;_contGroup;</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>rev::CANSparkMax<sp/>&amp;_leftFlyWheelMotor;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>rev::CANSparkMax<sp/>&amp;_rightFlyWheelMotor;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>wml::Gearbox<sp/>&amp;_flyWheel;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>shooterManualSpeed<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><ref refid="structRobotMap_1_1ShooterSystem" kindref="compound">RobotMap::ShooterSystem</ref><sp/>&amp;_shooterSystem;</highlight></codeline>
+<codeline lineno="62"><highlight class="normal">};</highlight></codeline>
+    </programlisting>
+    <location file="src/main/include/Shooter.h"/>
+  </compounddef>
+</doxygen>

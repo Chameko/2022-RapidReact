@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="structRobotMap_1_1ShooterSystem" kind="struct" language="C++" prot="public">
+    <compoundname>RobotMap::ShooterSystem</compoundname>
+    <includes refid="RobotMap_8h" local="no">RobotMap.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structRobotMap_1_1ShooterSystem_1ae5d9f927b237a64a03ca18d9062e5076" prot="public" static="no" mutable="no">
+        <type>rev::CANSparkMax</type>
+        <definition>rev::CANSparkMax RobotMap::ShooterSystem::leftFlyWheelMotor</definition>
+        <argsstring></argsstring>
+        <name>leftFlyWheelMotor</name>
+        <initializer>{6, rev::CANSparkMaxLowLevel::MotorType::kBrushless}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/include/RobotMap.h" line="90" column="1" bodyfile="src/main/include/RobotMap.h" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structRobotMap_1_1ShooterSystem_1aab45587e054544e57815df0033909198" prot="public" static="no" mutable="no">
+        <type>rev::CANSparkMax</type>
+        <definition>rev::CANSparkMax RobotMap::ShooterSystem::rightFlyWheelMotor</definition>
+        <argsstring></argsstring>
+        <name>rightFlyWheelMotor</name>
+        <initializer>{7, rev::CANSparkMaxLowLevel::MotorType::kBrushless}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/include/RobotMap.h" line="91" column="1" bodyfile="src/main/include/RobotMap.h" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><ref refid="classShooter" kindref="compound">Shooter</ref> subsystem 2 spark maxs into a gearbox </para>    </detaileddescription>
+    <location file="src/main/include/RobotMap.h" line="87" column="1" bodyfile="src/main/include/RobotMap.h" bodystart="87" bodyend="97"/>
+    <listofallmembers>
+      <member refid="structRobotMap_1_1ShooterSystem_1ae5d9f927b237a64a03ca18d9062e5076" prot="public" virt="non-virtual"><scope>RobotMap::ShooterSystem</scope><name>leftFlyWheelMotor</name></member>
+      <member refid="structRobotMap_1_1ShooterSystem_1aab45587e054544e57815df0033909198" prot="public" virt="non-virtual"><scope>RobotMap::ShooterSystem</scope><name>rightFlyWheelMotor</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
