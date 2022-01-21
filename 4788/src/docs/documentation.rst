@@ -19,13 +19,15 @@ We use **doxygen** to generate documentation from code comments, sphinx to forma
                                                  ^
                              documentation ------^
 
+We also use **myst-parser** to parse markdown to sphinx in case we want to write our documentation in markdown rather than rst.
+
 Windows
 ```````
 To install doxygen navigate to https://www.doxygen.nl/download.html and scroll down untill you see *A bindary distrabution for Windows*. Download and run the installer
 
-**Sphinx**, **breathe** and the theme can be installed via pip, python's package manager, which can be found on https://pypi.org/project/pip/
+**Sphinx**, **breathe**, **myst-parse** and the theme can be installed via pip, python's package manager, which can be found on https://pypi.org/project/pip/
 |
-``pip install sphinx breathe sphinx_rtd_theme``
+``pip install sphinx breathe sphinx_rtd_theme myst-parser``
 
 Linux
 `````
@@ -33,7 +35,7 @@ If able, I recommend installing **doxygen** and **pip** throught your distro's p
 
 After install **sphinx**, **breathe** and the theme via pip.
 |
-``pip install sphinx breathe sphinx_rtd_theme``
+``pip install sphinx breathe sphinx_rtd_theme myst-parser``
 
 Build
 -----
@@ -67,3 +69,6 @@ Here's a list of resources to help you get familier:
     To insert those special **doxygen** snippets you'll need **breathe**'s commands. They can be found `here <https://breathe.readthedocs.io/en/latest/directives.html#doxygenclass>`_
 
 I recommend you look at the example subsystem documentation I've created as well as the commented source code to get a good idea of how everything works.
+
+.. tip::
+    You are able to write your documentation in **markdown** if you want, but you won't be able to use **doxygen** snippits through **breathe** as it doesn't support the syntax. On the other hand, its more common knowledge so make your choice.

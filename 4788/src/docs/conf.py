@@ -17,9 +17,9 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'RapidReact'
-copyright = '2022, CJ'
-author = 'CJ'
+project = '4788 Rapid React'
+copyright = '2022, Team 4788'
+author = 'Team 4788'
 
 # The full version, including alpha/beta/rc tags
 release = '2022'
@@ -31,7 +31,8 @@ release = '2022'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-    "breathe"
+    "breathe",
+    "myst_parser"
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -41,6 +42,9 @@ templates_path = ['_templates']
 # directories to ignore when looking for source files.
 # This pattern also affects html_static_path and html_extra_path.
 exclude_patterns = []
+
+# enable markdown
+source_suffix = ['.rst', '.md']
 
 
 # -- Options for HTML output -------------------------------------------------
