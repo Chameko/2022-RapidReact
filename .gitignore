@@ -145,6 +145,9 @@ $RECYCLE.BIN/
 .gradle
 build/
 
+# Allow the doxygen xml files for readthedocs
+!build/docs/doxygen/xml
+
 # Ignore Gradle GUI config
 gradle-app.setting
 
