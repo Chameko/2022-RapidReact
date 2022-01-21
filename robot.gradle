@@ -123,7 +123,7 @@ doxygen {
     doxygen version : '1.8.13'
   }
 
-  generate_html true
-  source project.file('src/main/include')
+  generate_xml true
+  source project.file('src/main/')
   outputDir new File(buildDir,"docs/doxygen/${nativeName}")
 }

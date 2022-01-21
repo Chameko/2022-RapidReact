@@ -6,7 +6,9 @@ Intake::Intake (RobotMap::IntakeSystem &intakeSystem, Controllers &contGroup) : 
   _intakeSystem.intakeSolenoid.SetTarget(wml::actuators::BinaryActuatorState::kReverse);
 }
   
-
+/**
+ * \brief Function that makes the intake work
+*/
 void Intake::teleopOnUpdate (double dt){
   double intakeCont = fabs(_contGroup.Get(ControlMap::Intake)) > ControlMap::TriggerDeadzone ? _contGroup.Get(ControlMap::Intake) : 0;
   _intakeSystem.intake.Set(intakeCont);

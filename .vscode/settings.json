@@ -67,5 +67,7 @@
 		"cinttypes": "cpp",
 		"typeinfo": "cpp",
 		"variant": "cpp"
-	}
+	},
+	"restructuredtext.linter.disabled": true,
+	"restructuredtext.confPath": "${workspaceFolder}/source"
 }
