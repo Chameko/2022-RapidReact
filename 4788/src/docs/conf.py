@@ -37,7 +37,7 @@ extensions = [
 
 # Generate doxygen files
 import subprocess
-subprocess.call( 'cd ../../../; ./gradlew doxygen' , shell=True)
+subprocess.call( 'cd ../../../; ./gradlew doxygen -Ptoolchain-optional-roboRio' , shell=True)
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
