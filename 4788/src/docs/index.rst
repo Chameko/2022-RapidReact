@@ -13,6 +13,7 @@ Welcome to 4788's Rapid React documentation!
    documentation
    Example Intake subsystem <subsystems/Intake>
    markdownTest.md
+   currentdocs.md
 
 Introduction
 =============
