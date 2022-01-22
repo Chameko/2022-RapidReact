@@ -128,7 +128,7 @@ doxygen {
   outputDir new File(buildDir,"docs/doxygen/${nativeName}")
 }
 
-task sphinx {
+task doc {
   doLast {
     def sphinx = "sphinx-build -b html ./4788/src/docs/ ./build/docs/sphinx/".execute()
     sphinx.waitFor()
@@ -137,9 +137,4 @@ task sphinx {
       throw new GradleException("Sphinx build returned ${sphinx.exitValue()}")
     }
   }
-}
-
-task doc {
-  dependsOn tasks.doxygen
-  dependsOn tasks.sphinx
 }

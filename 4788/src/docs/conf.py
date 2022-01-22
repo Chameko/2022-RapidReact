@@ -35,6 +35,10 @@ extensions = [
     "myst_parser"
 ]
 
+# Generate doxygen files
+import subprocess
+subprocess.call( 'cd ../../../; ./gradlew doxygen' , shell=True)
+
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
 
