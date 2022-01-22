@@ -13,3 +13,7 @@ python:
 sphinx:
   builder: html
   configuration: 4788/src/docs/conf.py
+
+build:
+  apt_packages:
+    - doxygen
